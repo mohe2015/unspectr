@@ -23,13 +23,13 @@ int main(int argc, char** argv) {
     top->reset = 0;           // Set some inputs
 
     while (!Verilated::gotFinish()) {
-        if (main_time > 10) {
+        if (main_time >= 10) {
             top->reset = 1;   // Deassert reset
         }
-        if ((main_time % 10) == 1) {
+        if ((main_time % 10) == 5) {
             top->clk = 1;       // Toggle clock
         }
-        if ((main_time % 10) == 6) {
+        if ((main_time % 10) == 0) {
             top->clk = 0;
         }
         top->eval();            // Evaluate model
