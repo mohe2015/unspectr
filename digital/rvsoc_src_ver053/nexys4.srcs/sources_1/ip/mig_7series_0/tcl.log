@@ -1,0 +1,1736 @@
+MIG: 18:02:13 : Running customizer.xit
+MIG: 18:02:13 : ################# RUNNING MIG INTERACTIVE ###################
+MIG: 18:02:13 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/.Xil/Vivado-1965-ffx/coregen/mig_7series_0
+MIG: 18:02:13 : synp_flow:  -- synthesis_mode: Other
+MIG: 18:02:13 : outputDirectory: /home/miura/.Xil/Vivado-1965-ffx/coregen/mig_7series_0/_tmp/
+MIG: 18:02:13 : vivado_mode: xpg_pa
+MIG: 18:02:13 :  locked false  
+MIG: 18:02:13 : HDL Language: Verilog
+MIG: 18:02:13 : compInfo: true
+MIG: 18:02:13 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 18:02:13 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 18:02:13 : I am in catch area
+MIG: 18:02:13 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/.Xil/Vivado-1965-ffx/coregen/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/.Xil/Vivado-1965-ffx/coregen/mig_7series_0/xil_txt.out ... 
+MIG: 18:04:37 : Prasad before: xmlPropertyPrj --  .prj
+MIG: 18:04:37 : Prasad After: xmlPropertyPrj -- mig_a.prj
+MIG: 18:04:37 : XML_INPUT_FILE: /home/miura/.Xil/Vivado-1965-ffx/coregen/mig_7series_0/mig_a.prj
+MIG: 18:04:37 : Component_Name: mig_7series_0
+MIG: 18:04:37 : Moving mig_7series_0.veo ...
+MIG: 18:04:37 : Moving mig_7series_0 ...
+MIG: 18:04:37 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 18:04:37 : Sending back 0
+MIG: 18:04:39 : xml_input_file: mig_a.prj
+MIG: 18:04:39 : Absolute path of xml_input_file: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 18:04:39 : xml_input_file: mig_a.prj
+MIG: 18:04:39 : Absolute path of xml_input_file: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 18:04:39 : In updateAllModelParams
+MIG: 18:04:39 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 18:04:39 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 18:04:39 : XGUI hdlLanguage: Verilog
+MIG: 18:04:39 : xgui vivado_mode: xpg_pa
+MIG: 18:04:39 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 18:04:39 : Reading /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig.v ...
+MIG: 18:04:40 : 1
+MIG: 18:04:40 : Inside fn mem: DDR2
+MIG: 18:04:40 : detect_uiclk: 75007501
+MIG: 18:04:40 : cntrl:  memtype: DDR2
+MIG: 18:04:40 : 1200
+MIG: 18:04:40 :  MMCM_VCO single ctrl param_name: MMCM_VCO --  possibleMaxVcoVal: 1200 
+MIG: 18:04:40 : DDR2
+MIG: 18:04:40 : 
+MIG: 18:04:40 : 75007501
+MIG: 18:04:40 : 
+MIG: 18:04:40 :  polarity_value: 1
+MIG: 18:04:40 : 
+MIG: 18:04:40 : EXTERNAL
+MIG: 18:04:40 : cntrl:  memtype: DDR2
+MIG: 18:04:40 :  Invalid Param: DDR2_RST_ACT_LOW ==> 1
+MIG: 18:04:40 : 
+MIG: 18:04:40 :  Valid Param: DDR2_BANK_WIDTH ==> 3
+MIG: 18:04:40 : 
+MIG: 18:04:40 :  Valid Param: DDR2_CK_WIDTH ==> 1
+MIG: 18:04:40 :  Invalid Param: DDR2_COL_WIDTH ==> 10
+MIG: 18:04:40 : 
+MIG: 18:04:40 :  Valid Param: DDR2_CS_WIDTH ==> 1
+MIG: 18:04:40 : 
+MIG: 18:04:40 :  Valid Param: DDR2_nCS_PER_RANK ==> 1
+MIG: 18:04:40 : 
+MIG: 18:04:40 :  Valid Param: DDR2_CKE_WIDTH ==> 1
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 18:04:40 :  Invalid Param: DDR2_DQ_CNT_WIDTH ==> 4
+MIG: 18:04:40 :  Invalid Param: DDR2_DQ_PER_DM ==> 8
+MIG: 18:04:40 : 2
+MIG: 18:04:40 :  Valid Param: DDR2_DM_WIDTH ==> 2
+MIG: 18:04:40 : 16
+MIG: 18:04:40 :  Valid Param: DDR2_DQ_WIDTH ==> 16
+MIG: 18:04:40 : 2
+MIG: 18:04:40 :  Valid Param: DDR2_DQS_WIDTH ==> 2
+MIG: 18:04:40 : 
+MIG: 18:04:40 :  Valid Param: DDR2_DQS_CNT_WIDTH ==> 1
+MIG: 18:04:40 :  Invalid Param: DDR2_DRAM_WIDTH ==> 8
+MIG: 18:04:40 : 
+MIG: 18:04:40 :  Valid Param: ECC ==> OFF
+MIG: 18:04:40 : 16
+MIG: 18:04:40 :  Valid Param: DDR2_DATA_WIDTH ==> 16
+MIG: 18:04:40 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 18:04:40 :  Invalid Param: DDR2_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 18:04:40 :  Invalid Param: DDR2_MEM_ADDR_ORDER ==> "BANK_ROW_COLUMN"
+MIG: 18:04:40 :  Invalid Param: DDR2_nBANK_MACHS ==> 2
+MIG: 18:04:40 :  Invalid Param: DDR2_RANKS ==> 1
+MIG: 18:04:40 : 
+MIG: 18:04:40 :  Valid Param: DDR2_ODT_WIDTH ==> 1
+MIG: 18:04:40 : 13
+MIG: 18:04:40 :  Valid Param: DDR2_ROW_WIDTH ==> 13
+MIG: 18:04:40 : 27
+MIG: 18:04:40 :  Valid Param: DDR2_ADDR_WIDTH ==> 27
+MIG: 18:04:40 : 
+MIG: 18:04:40 :  Valid Param: DDR2_USE_CS_PORT ==> 1
+MIG: 18:04:40 : 
+MIG: 18:04:40 :  Valid Param: DDR2_USE_DM_PORT ==> 1
+MIG: 18:04:40 : 
+MIG: 18:04:40 :  Valid Param: DDR2_USE_ODT_PORT ==> 1
+MIG: 18:04:40 :  Invalid Param: DDR2_PHY_CONTROL_MASTER_BANK ==> 0
+MIG: 18:04:40 :  Invalid Param: DDR2_MEM_DENSITY ==> "1Gb"
+MIG: 18:04:40 :  Invalid Param: DDR2_MEM_SPEEDGRADE ==> "25E"
+MIG: 18:04:40 :  Invalid Param: DDR2_MEM_DEVICE_WIDTH ==> 16
+MIG: 18:04:40 :  Invalid Param: DDR2_AL ==> "0"
+MIG: 18:04:40 :  Invalid Param: DDR2_nAL ==> 0
+MIG: 18:04:40 :  Invalid Param: DDR2_BURST_MODE ==> "8"
+MIG: 18:04:40 :  Invalid Param: DDR2_BURST_TYPE ==> "SEQ"
+MIG: 18:04:40 :  Invalid Param: DDR2_CL ==> 5
+MIG: 18:04:40 :  Invalid Param: DDR2_OUTPUT_DRV ==> "HIGH"
+MIG: 18:04:40 :  Invalid Param: DDR2_RTT_NOM ==> "50"
+MIG: 18:04:40 :  Invalid Param: DDR2_ADDR_CMD_MODE ==> "1T"
+MIG: 18:04:40 : 
+MIG: 18:04:40 :  Valid Param: DDR2_REG_CTRL ==> OFF
+MIG: 18:04:40 :  Invalid Param: DDR2_CLKIN_PERIOD ==> 4999
+MIG: 18:04:40 :  Invalid Param: DDR2_CLKFBOUT_MULT ==> 6
+MIG: 18:04:40 :  Invalid Param: DDR2_DIVCLK_DIVIDE ==> 1
+MIG: 18:04:40 :  Invalid Param: DDR2_CLKOUT0_PHASE ==> 0.0
+MIG: 18:04:40 :  Invalid Param: DDR2_CLKOUT0_DIVIDE ==> 2
+MIG: 18:04:40 :  Invalid Param: DDR2_CLKOUT1_DIVIDE ==> 4
+MIG: 18:04:40 :  Invalid Param: DDR2_CLKOUT2_DIVIDE ==> 64
+MIG: 18:04:40 :  Invalid Param: DDR2_CLKOUT3_DIVIDE ==> 16
+MIG: 18:04:40 :  Invalid Param: DDR2_MMCM_VCO ==> 1200
+MIG: 18:04:40 :  Invalid Param: DDR2_MMCM_MULT_F ==> 15
+MIG: 18:04:40 :  Invalid Param: DDR2_MMCM_DIVCLK_DIVIDE ==> 1
+MIG: 18:04:40 :  Invalid Param: DDR2_tCKE ==> 7500
+MIG: 18:04:40 :  Invalid Param: DDR2_tFAW ==> 45000
+MIG: 18:04:40 :  Invalid Param: DDR2_tPRDI ==> 1_000_000
+MIG: 18:04:40 :  Invalid Param: DDR2_tRAS ==> 40000
+MIG: 18:04:40 :  Invalid Param: DDR2_tRCD ==> 15000
+MIG: 18:04:40 :  Invalid Param: DDR2_tREFI ==> 7800000
+MIG: 18:04:40 :  Invalid Param: DDR2_tRFC ==> 127500
+MIG: 18:04:40 :  Invalid Param: DDR2_tRP ==> 12500
+MIG: 18:04:40 :  Invalid Param: DDR2_tRRD ==> 10000
+MIG: 18:04:40 :  Invalid Param: DDR2_tRTP ==> 7500
+MIG: 18:04:40 :  Invalid Param: DDR2_tWTR ==> 7500
+MIG: 18:04:40 :  Invalid Param: DDR2_tZQI ==> 128_000_000
+MIG: 18:04:40 :  Invalid Param: DDR2_tZQCS ==> 64
+MIG: 18:04:40 :  Invalid Param: DDR2_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 18:04:40 :  Invalid Param: DDR2_SIMULATION ==> "FALSE"
+MIG: 18:04:40 :  Invalid Param: DDR2_BYTE_LANES_B0 ==> 4'b1111
+MIG: 18:04:40 :  Invalid Param: DDR2_BYTE_LANES_B1 ==> 4'b0000
+MIG: 18:04:40 :  Invalid Param: DDR2_BYTE_LANES_B2 ==> 4'b0000
+MIG: 18:04:40 :  Invalid Param: DDR2_BYTE_LANES_B3 ==> 4'b0000
+MIG: 18:04:40 :  Invalid Param: DDR2_BYTE_LANES_B4 ==> 4'b0000
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA_CTL_B0 ==> 4'b0101
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA_CTL_B1 ==> 4'b0000
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA_CTL_B2 ==> 4'b0000
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA_CTL_B3 ==> 4'b0000
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA_CTL_B4 ==> 4'b0000
+MIG: 18:04:40 :  Invalid Param: DDR2_PHY_0_BITLANES ==> 48'hFFC_3F7_FFF_3FE
+MIG: 18:04:40 :  Invalid Param: DDR2_PHY_1_BITLANES ==> 48'h000_000_000_000
+MIG: 18:04:40 :  Invalid Param: DDR2_PHY_2_BITLANES ==> 48'h000_000_000_000
+MIG: 18:04:40 :  Invalid Param: DDR2_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_03
+MIG: 18:04:40 :  Invalid Param: DDR2_ADDR_MAP ==> 192'h000_000_000_010_033_01A_019_032_03A_034_018_036_012_011_017_015
+MIG: 18:04:40 :  Invalid Param: DDR2_BANK_MAP ==> 36'h013_016_01B
+MIG: 18:04:40 :  Invalid Param: DDR2_CAS_MAP ==> 12'h039
+MIG: 18:04:40 :  Invalid Param: DDR2_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 18:04:40 :  Invalid Param: DDR2_CKE_MAP ==> 96'h000_000_000_000_000_000_000_038
+MIG: 18:04:40 :  Invalid Param: DDR2_ODT_MAP ==> 96'h000_000_000_000_000_000_000_035
+MIG: 18:04:40 :  Invalid Param: DDR2_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_037
+MIG: 18:04:40 :  Invalid Param: DDR2_PARITY_MAP ==> 12'h000
+MIG: 18:04:40 :  Invalid Param: DDR2_RAS_MAP ==> 12'h014
+MIG: 18:04:40 :  Invalid Param: DDR2_WE_MAP ==> 12'h03B
+MIG: 18:04:40 :  Invalid Param: DDR2_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_02_00
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA0_MAP ==> 96'h008_004_009_007_005_001_006_003
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA1_MAP ==> 96'h022_028_020_024_027_025_026_021
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA2_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA3_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA4_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA5_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA6_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA7_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 18:04:40 :  Invalid Param: DDR2_MASK0_MAP ==> 108'h000_000_000_000_000_000_000_029_002
+MIG: 18:04:40 :  Invalid Param: DDR2_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 18:04:40 :  Invalid Param: DDR2_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 18:04:40 :  Invalid Param: DDR2_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 18:04:40 :  Invalid Param: DDR2_IBUF_LPWR_MODE ==> "OFF"
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 18:04:40 :  Invalid Param: DDR2_BANK_TYPE ==> "HR_IO"
+MIG: 18:04:40 :  Invalid Param: DDR2_DATA_IO_PRIM_TYPE ==> "HR_LP"
+MIG: 18:04:40 :  Invalid Param: DDR2_CKE_ODT_AUX ==> "FALSE"
+MIG: 18:04:40 :  Invalid Param: DDR2_USER_REFRESH ==> "OFF"
+MIG: 18:04:40 :  Invalid Param: DDR2_WRLVL ==> "OFF"
+MIG: 18:04:40 :  Invalid Param: DDR2_ORDERING ==> "STRICT"
+MIG: 18:04:40 :  Invalid Param: DDR2_CALIB_ROW_ADD ==> 16'h0000
+MIG: 18:04:40 :  Invalid Param: DDR2_CALIB_COL_ADD ==> 12'h000
+MIG: 18:04:40 :  Invalid Param: DDR2_CALIB_BA_ADD ==> 3'h0
+MIG: 18:04:40 :  Invalid Param: DDR2_TCQ ==> 100
+MIG: 18:04:40 :  Invalid Param: DDR2_IODELAY_GRP0 ==> "MIG_7SERIES_0_IODELAY_MIG0"
+MIG: 18:04:40 :  Invalid Param: DDR2_SYSCLK_TYPE ==> "NO_BUFFER"
+MIG: 18:04:40 :  Invalid Param: DDR2_REFCLK_TYPE ==> "USE_SYSTEM_CLOCK"
+MIG: 18:04:40 :  Invalid Param: DDR2_SYS_RST_PORT ==> "FALSE"
+MIG: 18:04:40 :  Invalid Param: DDR2_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 18:04:40 :  Invalid Param: DDR2_DRAM_TYPE ==> "DDR2"
+MIG: 18:04:40 :  Invalid Param: DDR2_CAL_WIDTH ==> "HALF"
+MIG: 18:04:40 :  Invalid Param: DDR2_STARVE_LIMIT ==> 2
+MIG: 18:04:40 :  Invalid Param: DDR2_REFCLK_FREQ ==> 200.0
+MIG: 18:04:40 :  Invalid Param: DDR2_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 18:04:40 :  Invalid Param: DDR2_tCK ==> 3333
+MIG: 18:04:40 : 4
+MIG: 18:04:40 :  Valid Param: DDR2_nCK_PER_CLK ==> 4
+MIG: 18:04:40 :  Invalid Param: DDR2_DIFF_TERM_SYSCLK ==> "TRUE"
+MIG: 18:04:40 : 
+MIG: 18:04:40 :  Valid Param: DDR2_DEBUG_PORT ==> OFF
+MIG: 18:04:40 : 
+MIG: 18:04:40 :  Invalid Param: DDR2_TEMP_MON_CONTROL ==> "EXTERNAL"
+MIG: 18:04:40 : NOBUF
+MIG: 18:04:40 : NONE
+MIG: 18:04:40 : 
+MIG: 18:04:40 : Same Interface
+MIG: 18:04:43 : Running synthesis.xit
+MIG: 18:04:43 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 18:04:43 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 18:04:43 : Running vlog_synth_rpr.xit
+MIG: 18:04:43 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 18:04:43 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 18:04:43 : Running simulation.xit
+MIG: 18:04:43 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 18:04:43 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 18:04:43 : Running vlog_sim_rpr.xit .. PRASAD DBG1
+MIG: 18:04:43 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 18:04:43 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 18:04:43 : Running implementation.xit
+MIG: 18:04:43 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 18:04:43 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 18:18:06 : Running synthesis.xit
+MIG: 18:18:06 : ################# RUNNING MIG BATCH ###################
+MIG: 18:18:06 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0
+MIG: 18:18:06 : synp_flow:  -- synthesis_mode: Other
+MIG: 18:18:06 : outputDirectory: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 18:18:06 : vivado_mode: xpg_pa
+MIG: 18:18:06 :  locked false  
+MIG: 18:18:06 : HDL Language: Verilog
+MIG: 18:18:06 : compInfo: false
+MIG: 18:18:06 : Vivado Options xc7a100t csg324 -1
+MIG: 18:18:06 : 1: xc7a100t 2: csg324 3: -1
+MIG: 18:18:06 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 18:18:06 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 18:18:06 : I am in catch area
+MIG: 18:18:06 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 18:18:15 : XML_INPUT_FILE: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 18:18:15 : Component_Name: mig_7series_0
+MIG: 18:18:15 : Moving mig_7series_0.veo ...
+MIG: 18:18:15 : Moving mig_7series_0 ...
+MIG: 18:18:15 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 18:18:15 : Running vlog_synth_rpr.xit
+MIG: 18:18:15 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 18:18:15 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 18:18:15 : Running implementation.xit
+MIG: 18:18:15 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 18:18:15 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 18:34:29 : Running synthesis.xit
+MIG: 18:34:29 : ################# RUNNING MIG BATCH ###################
+MIG: 18:34:29 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0
+MIG: 18:34:29 : synp_flow:  -- synthesis_mode: Other
+MIG: 18:34:29 : outputDirectory: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 18:34:29 : vivado_mode: xpg_pa
+MIG: 18:34:29 :  locked false  
+MIG: 18:34:29 : HDL Language: Verilog
+MIG: 18:34:29 : compInfo: false
+MIG: 18:34:29 : Vivado Options xc7a100t csg324 -1
+MIG: 18:34:29 : 1: xc7a100t 2: csg324 3: -1
+MIG: 18:34:29 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 18:34:29 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 18:34:29 : I am in catch area
+MIG: 18:34:29 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 18:34:39 : XML_INPUT_FILE: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 18:34:39 : Component_Name: mig_7series_0
+MIG: 18:34:39 : Moving mig_7series_0.veo ...
+MIG: 18:34:39 : Moving mig_7series_0 ...
+MIG: 18:34:39 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 18:34:39 : Running vlog_synth_rpr.xit
+MIG: 18:34:39 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 18:34:39 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 18:34:39 : Running implementation.xit
+MIG: 18:34:39 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 18:34:39 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 17:18:14 : Running synthesis.xit
+MIG: 17:18:14 : ################# RUNNING MIG BATCH ###################
+MIG: 17:18:14 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0
+MIG: 17:18:14 : synp_flow:  -- synthesis_mode: Other
+MIG: 17:18:14 : outputDirectory: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 17:18:14 : vivado_mode: xpg_pa
+MIG: 17:18:14 :  locked false  
+MIG: 17:18:14 : HDL Language: Verilog
+MIG: 17:18:14 : compInfo: false
+MIG: 17:18:14 : Vivado Options xc7a100t csg324 -1
+MIG: 17:18:14 : 1: xc7a100t 2: csg324 3: -1
+MIG: 17:18:14 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 17:18:14 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 17:18:14 : I am in catch area
+MIG: 17:18:14 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 17:18:23 : XML_INPUT_FILE: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 17:18:23 : Component_Name: mig_7series_0
+MIG: 17:18:23 : Moving mig_7series_0.veo ...
+MIG: 17:18:23 : Moving mig_7series_0 ...
+MIG: 17:18:23 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 17:18:24 : Running vlog_synth_rpr.xit
+MIG: 17:18:24 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 17:18:24 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 17:18:24 : Running implementation.xit
+MIG: 17:18:24 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 17:18:24 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 21:00:45 : Running synthesis.xit
+MIG: 21:00:45 : ################# RUNNING MIG BATCH ###################
+MIG: 21:00:45 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0
+MIG: 21:00:45 : synp_flow:  -- synthesis_mode: Other
+MIG: 21:00:45 : outputDirectory: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 21:00:45 : vivado_mode: xpg_pa
+MIG: 21:00:45 :  locked false  
+MIG: 21:00:45 : HDL Language: Verilog
+MIG: 21:00:45 : compInfo: false
+MIG: 21:00:45 : Vivado Options xc7a100t csg324 -1
+MIG: 21:00:45 : 1: xc7a100t 2: csg324 3: -1
+MIG: 21:00:45 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 21:00:45 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 21:00:45 : I am in catch area
+MIG: 21:00:45 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 21:00:54 : XML_INPUT_FILE: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 21:00:54 : Component_Name: mig_7series_0
+MIG: 21:00:54 : Moving mig_7series_0.veo ...
+MIG: 21:00:54 : Moving mig_7series_0 ...
+MIG: 21:00:54 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 21:00:55 : Running vlog_synth_rpr.xit
+MIG: 21:00:55 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 21:00:55 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 21:00:55 : Running implementation.xit
+MIG: 21:00:55 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 21:00:55 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 16:07:40 : Running synthesis.xit
+MIG: 16:07:40 : ################# RUNNING MIG BATCH ###################
+MIG: 16:07:40 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0
+MIG: 16:07:40 : synp_flow:  -- synthesis_mode: Other
+MIG: 16:07:40 : outputDirectory: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 16:07:40 : vivado_mode: xpg_pa
+MIG: 16:07:40 :  locked false  
+MIG: 16:07:40 : HDL Language: Verilog
+MIG: 16:07:40 : compInfo: false
+MIG: 16:07:40 : Vivado Options xc7a100t csg324 -1
+MIG: 16:07:40 : 1: xc7a100t 2: csg324 3: -1
+MIG: 16:07:40 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 16:07:40 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 16:07:40 : I am in catch area
+MIG: 16:07:40 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 16:07:49 : XML_INPUT_FILE: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 16:07:49 : Component_Name: mig_7series_0
+MIG: 16:07:49 : Moving mig_7series_0.veo ...
+MIG: 16:07:49 : Moving mig_7series_0 ...
+MIG: 16:07:49 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 16:07:49 : Running vlog_synth_rpr.xit
+MIG: 16:07:49 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 16:07:49 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 16:07:49 : Running implementation.xit
+MIG: 16:07:49 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 16:07:49 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 16:42:35 : Running synthesis.xit
+MIG: 16:42:35 : ################# RUNNING MIG BATCH ###################
+MIG: 16:42:35 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0
+MIG: 16:42:35 : synp_flow:  -- synthesis_mode: Other
+MIG: 16:42:35 : outputDirectory: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 16:42:35 : vivado_mode: xpg_pa
+MIG: 16:42:35 :  locked false  
+MIG: 16:42:35 : HDL Language: Verilog
+MIG: 16:42:35 : compInfo: false
+MIG: 16:42:35 : Vivado Options xc7a100t csg324 -1
+MIG: 16:42:35 : 1: xc7a100t 2: csg324 3: -1
+MIG: 16:42:35 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 16:42:35 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 16:42:35 : I am in catch area
+MIG: 16:42:35 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 16:42:45 : XML_INPUT_FILE: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 16:42:45 : Component_Name: mig_7series_0
+MIG: 16:42:45 : Moving mig_7series_0.veo ...
+MIG: 16:42:45 : Moving mig_7series_0 ...
+MIG: 16:42:45 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 16:42:45 : Running vlog_synth_rpr.xit
+MIG: 16:42:45 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 16:42:45 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 16:42:45 : Running implementation.xit
+MIG: 16:42:45 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 16:42:45 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 16:10:45 : xml_input_file: mig_a.prj
+MIG: 16:10:45 : Absolute path of xml_input_file: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 16:10:45 : xml_input_file: mig_a.prj
+MIG: 16:10:45 : Absolute path of xml_input_file: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 17:48:52 : Running synthesis.xit
+MIG: 17:48:52 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 17:48:52 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 17:48:52 : Running vlog_synth_rpr.xit
+MIG: 17:48:52 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 17:48:52 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 17:48:52 : Running implementation.xit
+MIG: 17:48:52 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 17:48:52 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 14:03:17 : xml_input_file: mig_a.prj
+MIG: 14:03:17 : Absolute path of xml_input_file: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 14:03:17 : xml_input_file: mig_a.prj
+MIG: 14:03:17 : Absolute path of xml_input_file: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 14:03:18 : Running customizer.xit
+MIG: 14:03:18 : ################# RUNNING MIG INTERACTIVE ###################
+MIG: 14:03:18 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/.Xil/Vivado-19543-ffx/coregen/mig_7series_0
+MIG: 14:03:18 : synp_flow:  -- synthesis_mode: Other
+MIG: 14:03:18 : outputDirectory: /home/miura/.Xil/Vivado-19543-ffx/coregen/mig_7series_0/_tmp/
+MIG: 14:03:18 : vivado_mode: xpg_pa
+MIG: 14:03:18 :  locked false  
+MIG: 14:03:18 : HDL Language: Verilog
+MIG: 14:03:18 : compInfo: false
+MIG: 14:03:18 : Vivado Options xc7a100t csg324 -1
+MIG: 14:03:18 : 1: xc7a100t 2: csg324 3: -1
+MIG: 14:03:18 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 14:03:18 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 14:03:18 : I am in catch area
+MIG: 14:03:18 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/.Xil/Vivado-19543-ffx/coregen/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/.Xil/Vivado-19543-ffx/coregen/mig_7series_0/xil_txt.out ... 
+MIG: 14:05:04 : Prasad before: xmlPropertyPrj -- mig_a.prj
+MIG: 14:05:04 : Prasad After: xmlPropertyPrj -- mig_b.prj
+MIG: 14:05:04 : XML_INPUT_FILE: /home/miura/.Xil/Vivado-19543-ffx/coregen/mig_7series_0/mig_b.prj
+MIG: 14:05:04 : Component_Name: mig_7series_0
+MIG: 14:05:04 : Moving mig_7series_0.veo ...
+MIG: 14:05:04 : Moving mig_7series_0 ...
+MIG: 14:05:04 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 14:05:04 : Sending back 0
+MIG: 14:05:05 : xml_input_file: mig_b.prj
+MIG: 14:05:05 : Absolute path of xml_input_file: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_b.prj
+MIG: 14:05:05 : xml_input_file: mig_b.prj
+MIG: 14:05:05 : Absolute path of xml_input_file: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_b.prj
+MIG: 14:05:05 : In updateAllModelParams
+MIG: 14:05:05 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 14:05:05 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 14:05:05 : XGUI hdlLanguage: Verilog
+MIG: 14:05:05 : xgui vivado_mode: xpg_pa
+MIG: 14:05:05 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 14:05:05 : Reading /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig.v ...
+MIG: 14:05:06 : 
+MIG: 14:05:06 : Inside fn mem: DDR2
+MIG: 14:05:06 : detect_uiclk: 75007501
+MIG: 14:05:06 : cntrl:  memtype: DDR2
+MIG: 14:05:06 : 
+MIG: 14:05:06 :  MMCM_VCO single ctrl param_name: MMCM_VCO --  possibleMaxVcoVal: 1200 
+MIG: 14:05:06 : 
+MIG: 14:05:06 : 
+MIG: 14:05:06 : 
+MIG: 14:05:06 : 
+MIG: 14:05:06 :  polarity_value: 1
+MIG: 14:05:06 : 
+MIG: 14:05:06 : 
+MIG: 14:05:06 : cntrl:  memtype: DDR2
+MIG: 14:05:06 :  Invalid Param: DDR2_RST_ACT_LOW ==> 1
+MIG: 14:05:06 : 
+MIG: 14:05:06 :  Valid Param: DDR2_BANK_WIDTH ==> 3
+MIG: 14:05:06 : 
+MIG: 14:05:06 :  Valid Param: DDR2_CK_WIDTH ==> 1
+MIG: 14:05:06 :  Invalid Param: DDR2_COL_WIDTH ==> 10
+MIG: 14:05:06 : 
+MIG: 14:05:06 :  Valid Param: DDR2_CS_WIDTH ==> 1
+MIG: 14:05:06 : 
+MIG: 14:05:06 :  Valid Param: DDR2_nCS_PER_RANK ==> 1
+MIG: 14:05:06 : 
+MIG: 14:05:06 :  Valid Param: DDR2_CKE_WIDTH ==> 1
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 14:05:06 :  Invalid Param: DDR2_DQ_CNT_WIDTH ==> 4
+MIG: 14:05:06 :  Invalid Param: DDR2_DQ_PER_DM ==> 8
+MIG: 14:05:06 : 
+MIG: 14:05:06 :  Valid Param: DDR2_DM_WIDTH ==> 2
+MIG: 14:05:06 : 
+MIG: 14:05:06 :  Valid Param: DDR2_DQ_WIDTH ==> 16
+MIG: 14:05:06 : 
+MIG: 14:05:06 :  Valid Param: DDR2_DQS_WIDTH ==> 2
+MIG: 14:05:06 : 
+MIG: 14:05:06 :  Valid Param: DDR2_DQS_CNT_WIDTH ==> 1
+MIG: 14:05:06 :  Invalid Param: DDR2_DRAM_WIDTH ==> 8
+MIG: 14:05:06 : 
+MIG: 14:05:06 :  Valid Param: ECC ==> OFF
+MIG: 14:05:06 : 
+MIG: 14:05:06 :  Valid Param: DDR2_DATA_WIDTH ==> 16
+MIG: 14:05:06 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 14:05:06 :  Invalid Param: DDR2_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 14:05:06 :  Invalid Param: DDR2_MEM_ADDR_ORDER ==> "ROW_BANK_COLUMN"
+MIG: 14:05:06 :  Invalid Param: DDR2_nBANK_MACHS ==> 2
+MIG: 14:05:06 :  Invalid Param: DDR2_RANKS ==> 1
+MIG: 14:05:06 : 
+MIG: 14:05:06 :  Valid Param: DDR2_ODT_WIDTH ==> 1
+MIG: 14:05:06 : 
+MIG: 14:05:06 :  Valid Param: DDR2_ROW_WIDTH ==> 13
+MIG: 14:05:06 : 
+MIG: 14:05:06 :  Valid Param: DDR2_ADDR_WIDTH ==> 27
+MIG: 14:05:06 : 
+MIG: 14:05:06 :  Valid Param: DDR2_USE_CS_PORT ==> 1
+MIG: 14:05:06 : 
+MIG: 14:05:06 :  Valid Param: DDR2_USE_DM_PORT ==> 1
+MIG: 14:05:06 : 
+MIG: 14:05:06 :  Valid Param: DDR2_USE_ODT_PORT ==> 1
+MIG: 14:05:06 :  Invalid Param: DDR2_PHY_CONTROL_MASTER_BANK ==> 0
+MIG: 14:05:06 :  Invalid Param: DDR2_MEM_DENSITY ==> "1Gb"
+MIG: 14:05:06 :  Invalid Param: DDR2_MEM_SPEEDGRADE ==> "25E"
+MIG: 14:05:06 :  Invalid Param: DDR2_MEM_DEVICE_WIDTH ==> 16
+MIG: 14:05:06 :  Invalid Param: DDR2_AL ==> "0"
+MIG: 14:05:06 :  Invalid Param: DDR2_nAL ==> 0
+MIG: 14:05:06 :  Invalid Param: DDR2_BURST_MODE ==> "8"
+MIG: 14:05:06 :  Invalid Param: DDR2_BURST_TYPE ==> "SEQ"
+MIG: 14:05:06 :  Invalid Param: DDR2_CL ==> 5
+MIG: 14:05:06 :  Invalid Param: DDR2_OUTPUT_DRV ==> "HIGH"
+MIG: 14:05:06 :  Invalid Param: DDR2_RTT_NOM ==> "50"
+MIG: 14:05:06 :  Invalid Param: DDR2_ADDR_CMD_MODE ==> "1T"
+MIG: 14:05:06 : 
+MIG: 14:05:06 :  Valid Param: DDR2_REG_CTRL ==> OFF
+MIG: 14:05:06 :  Invalid Param: DDR2_CLKIN_PERIOD ==> 4999
+MIG: 14:05:06 :  Invalid Param: DDR2_CLKFBOUT_MULT ==> 6
+MIG: 14:05:06 :  Invalid Param: DDR2_DIVCLK_DIVIDE ==> 1
+MIG: 14:05:06 :  Invalid Param: DDR2_CLKOUT0_PHASE ==> 0.0
+MIG: 14:05:06 :  Invalid Param: DDR2_CLKOUT0_DIVIDE ==> 2
+MIG: 14:05:06 :  Invalid Param: DDR2_CLKOUT1_DIVIDE ==> 4
+MIG: 14:05:06 :  Invalid Param: DDR2_CLKOUT2_DIVIDE ==> 64
+MIG: 14:05:06 :  Invalid Param: DDR2_CLKOUT3_DIVIDE ==> 16
+MIG: 14:05:06 :  Invalid Param: DDR2_MMCM_VCO ==> 1200
+MIG: 14:05:06 :  Invalid Param: DDR2_MMCM_MULT_F ==> 15
+MIG: 14:05:06 :  Invalid Param: DDR2_MMCM_DIVCLK_DIVIDE ==> 1
+MIG: 14:05:06 :  Invalid Param: DDR2_tCKE ==> 7500
+MIG: 14:05:06 :  Invalid Param: DDR2_tFAW ==> 45000
+MIG: 14:05:06 :  Invalid Param: DDR2_tPRDI ==> 1_000_000
+MIG: 14:05:06 :  Invalid Param: DDR2_tRAS ==> 40000
+MIG: 14:05:06 :  Invalid Param: DDR2_tRCD ==> 15000
+MIG: 14:05:06 :  Invalid Param: DDR2_tREFI ==> 7800000
+MIG: 14:05:06 :  Invalid Param: DDR2_tRFC ==> 127500
+MIG: 14:05:06 :  Invalid Param: DDR2_tRP ==> 12500
+MIG: 14:05:06 :  Invalid Param: DDR2_tRRD ==> 10000
+MIG: 14:05:06 :  Invalid Param: DDR2_tRTP ==> 7500
+MIG: 14:05:06 :  Invalid Param: DDR2_tWTR ==> 7500
+MIG: 14:05:06 :  Invalid Param: DDR2_tZQI ==> 128_000_000
+MIG: 14:05:06 :  Invalid Param: DDR2_tZQCS ==> 64
+MIG: 14:05:06 :  Invalid Param: DDR2_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 14:05:06 :  Invalid Param: DDR2_SIMULATION ==> "FALSE"
+MIG: 14:05:06 :  Invalid Param: DDR2_BYTE_LANES_B0 ==> 4'b1111
+MIG: 14:05:06 :  Invalid Param: DDR2_BYTE_LANES_B1 ==> 4'b0000
+MIG: 14:05:06 :  Invalid Param: DDR2_BYTE_LANES_B2 ==> 4'b0000
+MIG: 14:05:06 :  Invalid Param: DDR2_BYTE_LANES_B3 ==> 4'b0000
+MIG: 14:05:06 :  Invalid Param: DDR2_BYTE_LANES_B4 ==> 4'b0000
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA_CTL_B0 ==> 4'b0101
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA_CTL_B1 ==> 4'b0000
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA_CTL_B2 ==> 4'b0000
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA_CTL_B3 ==> 4'b0000
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA_CTL_B4 ==> 4'b0000
+MIG: 14:05:06 :  Invalid Param: DDR2_PHY_0_BITLANES ==> 48'hFFC_3F7_FFF_3FE
+MIG: 14:05:06 :  Invalid Param: DDR2_PHY_1_BITLANES ==> 48'h000_000_000_000
+MIG: 14:05:06 :  Invalid Param: DDR2_PHY_2_BITLANES ==> 48'h000_000_000_000
+MIG: 14:05:06 :  Invalid Param: DDR2_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_03
+MIG: 14:05:06 :  Invalid Param: DDR2_ADDR_MAP ==> 192'h000_000_000_010_033_01A_019_032_03A_034_018_036_012_011_017_015
+MIG: 14:05:06 :  Invalid Param: DDR2_BANK_MAP ==> 36'h013_016_01B
+MIG: 14:05:06 :  Invalid Param: DDR2_CAS_MAP ==> 12'h039
+MIG: 14:05:06 :  Invalid Param: DDR2_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 14:05:06 :  Invalid Param: DDR2_CKE_MAP ==> 96'h000_000_000_000_000_000_000_038
+MIG: 14:05:06 :  Invalid Param: DDR2_ODT_MAP ==> 96'h000_000_000_000_000_000_000_035
+MIG: 14:05:06 :  Invalid Param: DDR2_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_037
+MIG: 14:05:06 :  Invalid Param: DDR2_PARITY_MAP ==> 12'h000
+MIG: 14:05:06 :  Invalid Param: DDR2_RAS_MAP ==> 12'h014
+MIG: 14:05:06 :  Invalid Param: DDR2_WE_MAP ==> 12'h03B
+MIG: 14:05:06 :  Invalid Param: DDR2_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_02_00
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA0_MAP ==> 96'h008_004_009_007_005_001_006_003
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA1_MAP ==> 96'h022_028_020_024_027_025_026_021
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA2_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA3_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA4_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA5_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA6_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA7_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:05:06 :  Invalid Param: DDR2_MASK0_MAP ==> 108'h000_000_000_000_000_000_000_029_002
+MIG: 14:05:06 :  Invalid Param: DDR2_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 14:05:06 :  Invalid Param: DDR2_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 14:05:06 :  Invalid Param: DDR2_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 14:05:06 :  Invalid Param: DDR2_IBUF_LPWR_MODE ==> "OFF"
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 14:05:06 :  Invalid Param: DDR2_BANK_TYPE ==> "HR_IO"
+MIG: 14:05:06 :  Invalid Param: DDR2_DATA_IO_PRIM_TYPE ==> "HR_LP"
+MIG: 14:05:06 :  Invalid Param: DDR2_CKE_ODT_AUX ==> "FALSE"
+MIG: 14:05:06 :  Invalid Param: DDR2_USER_REFRESH ==> "OFF"
+MIG: 14:05:06 :  Invalid Param: DDR2_WRLVL ==> "OFF"
+MIG: 14:05:06 :  Invalid Param: DDR2_ORDERING ==> "STRICT"
+MIG: 14:05:06 :  Invalid Param: DDR2_CALIB_ROW_ADD ==> 16'h0000
+MIG: 14:05:06 :  Invalid Param: DDR2_CALIB_COL_ADD ==> 12'h000
+MIG: 14:05:06 :  Invalid Param: DDR2_CALIB_BA_ADD ==> 3'h0
+MIG: 14:05:06 :  Invalid Param: DDR2_TCQ ==> 100
+MIG: 14:05:06 :  Invalid Param: DDR2_IODELAY_GRP0 ==> "MIG_7SERIES_0_IODELAY_MIG0"
+MIG: 14:05:06 :  Invalid Param: DDR2_SYSCLK_TYPE ==> "NO_BUFFER"
+MIG: 14:05:06 :  Invalid Param: DDR2_REFCLK_TYPE ==> "USE_SYSTEM_CLOCK"
+MIG: 14:05:06 :  Invalid Param: DDR2_SYS_RST_PORT ==> "FALSE"
+MIG: 14:05:06 :  Invalid Param: DDR2_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 14:05:06 :  Invalid Param: DDR2_DRAM_TYPE ==> "DDR2"
+MIG: 14:05:06 :  Invalid Param: DDR2_CAL_WIDTH ==> "HALF"
+MIG: 14:05:06 :  Invalid Param: DDR2_STARVE_LIMIT ==> 2
+MIG: 14:05:06 :  Invalid Param: DDR2_REFCLK_FREQ ==> 200.0
+MIG: 14:05:06 :  Invalid Param: DDR2_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 14:05:06 :  Invalid Param: DDR2_tCK ==> 3333
+MIG: 14:05:06 : 
+MIG: 14:05:06 :  Valid Param: DDR2_nCK_PER_CLK ==> 4
+MIG: 14:05:06 :  Invalid Param: DDR2_DIFF_TERM_SYSCLK ==> "TRUE"
+MIG: 14:05:06 : 
+MIG: 14:05:06 :  Valid Param: DDR2_DEBUG_PORT ==> OFF
+MIG: 14:05:06 : 
+MIG: 14:05:06 :  Invalid Param: DDR2_TEMP_MON_CONTROL ==> "EXTERNAL"
+MIG: 14:05:06 : 
+MIG: 14:05:06 : 
+MIG: 14:05:06 : 
+MIG: 14:05:06 : Same Interface
+MIG: 14:05:11 : Running synthesis.xit
+MIG: 14:05:11 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 14:05:11 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 14:05:11 : Running vlog_synth_rpr.xit
+MIG: 14:05:11 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 14:05:11 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 14:05:11 : Running simulation.xit
+MIG: 14:05:11 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 14:05:11 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 14:05:11 : Running vlog_sim_rpr.xit .. PRASAD DBG1
+MIG: 14:05:11 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 14:05:11 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 14:05:11 : Running implementation.xit
+MIG: 14:05:11 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 14:05:11 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 14:21:41 : Running customizer.xit
+MIG: 14:21:41 : ################# RUNNING MIG INTERACTIVE ###################
+MIG: 14:21:41 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/.Xil/Vivado-19543-ffx/coregen/mig_7series_0
+MIG: 14:21:41 : synp_flow:  -- synthesis_mode: Other
+MIG: 14:21:41 : outputDirectory: /home/miura/.Xil/Vivado-19543-ffx/coregen/mig_7series_0/_tmp/
+MIG: 14:21:41 : vivado_mode: xpg_pa
+MIG: 14:21:41 :  locked false  
+MIG: 14:21:41 : HDL Language: Verilog
+MIG: 14:21:41 : compInfo: false
+MIG: 14:21:41 : Vivado Options xc7a100t csg324 -1
+MIG: 14:21:41 : 1: xc7a100t 2: csg324 3: -1
+MIG: 14:21:41 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 14:21:41 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 14:21:41 : I am in catch area
+MIG: 14:21:41 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/.Xil/Vivado-19543-ffx/coregen/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/.Xil/Vivado-19543-ffx/coregen/mig_7series_0/xil_txt.out ... 
+MIG: 14:22:37 : Prasad before: xmlPropertyPrj -- mig_b.prj
+MIG: 14:22:37 : Prasad After: xmlPropertyPrj -- mig_a.prj
+MIG: 14:22:37 : XML_INPUT_FILE: /home/miura/.Xil/Vivado-19543-ffx/coregen/mig_7series_0/mig_a.prj
+MIG: 14:22:37 : Component_Name: mig_7series_0
+MIG: 14:22:37 : Moving mig_7series_0.veo ...
+MIG: 14:22:37 : Moving mig_7series_0 ...
+MIG: 14:22:38 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 14:22:38 : Sending back 0
+MIG: 14:22:38 : xml_input_file: mig_a.prj
+MIG: 14:22:38 : Absolute path of xml_input_file: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 14:22:38 : xml_input_file: mig_a.prj
+MIG: 14:22:38 : Absolute path of xml_input_file: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 14:22:38 : In updateAllModelParams
+MIG: 14:22:38 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 14:22:38 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 14:22:38 : XGUI hdlLanguage: Verilog
+MIG: 14:22:38 : xgui vivado_mode: xpg_pa
+MIG: 14:22:38 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 14:22:38 : Reading /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig.v ...
+MIG: 14:22:39 : 
+MIG: 14:22:39 : Inside fn mem: DDR2
+MIG: 14:22:39 : detect_uiclk: 75007501
+MIG: 14:22:39 : cntrl:  memtype: DDR2
+MIG: 14:22:39 : 
+MIG: 14:22:39 :  MMCM_VCO single ctrl param_name: MMCM_VCO --  possibleMaxVcoVal: 1200 
+MIG: 14:22:39 : 
+MIG: 14:22:39 : 
+MIG: 14:22:39 : 
+MIG: 14:22:39 : 
+MIG: 14:22:39 :  polarity_value: 1
+MIG: 14:22:39 : 
+MIG: 14:22:39 : 
+MIG: 14:22:39 : cntrl:  memtype: DDR2
+MIG: 14:22:39 :  Invalid Param: DDR2_RST_ACT_LOW ==> 1
+MIG: 14:22:39 : 
+MIG: 14:22:39 :  Valid Param: DDR2_BANK_WIDTH ==> 3
+MIG: 14:22:39 : 
+MIG: 14:22:39 :  Valid Param: DDR2_CK_WIDTH ==> 1
+MIG: 14:22:39 :  Invalid Param: DDR2_COL_WIDTH ==> 10
+MIG: 14:22:39 : 
+MIG: 14:22:39 :  Valid Param: DDR2_CS_WIDTH ==> 1
+MIG: 14:22:39 : 
+MIG: 14:22:39 :  Valid Param: DDR2_nCS_PER_RANK ==> 1
+MIG: 14:22:39 : 
+MIG: 14:22:39 :  Valid Param: DDR2_CKE_WIDTH ==> 1
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 14:22:39 :  Invalid Param: DDR2_DQ_CNT_WIDTH ==> 4
+MIG: 14:22:39 :  Invalid Param: DDR2_DQ_PER_DM ==> 8
+MIG: 14:22:39 : 
+MIG: 14:22:39 :  Valid Param: DDR2_DM_WIDTH ==> 2
+MIG: 14:22:39 : 
+MIG: 14:22:39 :  Valid Param: DDR2_DQ_WIDTH ==> 16
+MIG: 14:22:39 : 
+MIG: 14:22:39 :  Valid Param: DDR2_DQS_WIDTH ==> 2
+MIG: 14:22:39 : 
+MIG: 14:22:39 :  Valid Param: DDR2_DQS_CNT_WIDTH ==> 1
+MIG: 14:22:39 :  Invalid Param: DDR2_DRAM_WIDTH ==> 8
+MIG: 14:22:39 : 
+MIG: 14:22:39 :  Valid Param: ECC ==> OFF
+MIG: 14:22:39 : 
+MIG: 14:22:39 :  Valid Param: DDR2_DATA_WIDTH ==> 16
+MIG: 14:22:39 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 14:22:39 :  Invalid Param: DDR2_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 14:22:39 :  Invalid Param: DDR2_MEM_ADDR_ORDER ==> "ROW_BANK_COLUMN"
+MIG: 14:22:39 :  Invalid Param: DDR2_nBANK_MACHS ==> 8
+MIG: 14:22:39 :  Invalid Param: DDR2_RANKS ==> 1
+MIG: 14:22:39 : 
+MIG: 14:22:39 :  Valid Param: DDR2_ODT_WIDTH ==> 1
+MIG: 14:22:39 : 
+MIG: 14:22:39 :  Valid Param: DDR2_ROW_WIDTH ==> 13
+MIG: 14:22:39 : 
+MIG: 14:22:39 :  Valid Param: DDR2_ADDR_WIDTH ==> 27
+MIG: 14:22:39 : 
+MIG: 14:22:39 :  Valid Param: DDR2_USE_CS_PORT ==> 1
+MIG: 14:22:39 : 
+MIG: 14:22:39 :  Valid Param: DDR2_USE_DM_PORT ==> 1
+MIG: 14:22:39 : 
+MIG: 14:22:39 :  Valid Param: DDR2_USE_ODT_PORT ==> 1
+MIG: 14:22:39 :  Invalid Param: DDR2_PHY_CONTROL_MASTER_BANK ==> 0
+MIG: 14:22:39 :  Invalid Param: DDR2_MEM_DENSITY ==> "1Gb"
+MIG: 14:22:39 :  Invalid Param: DDR2_MEM_SPEEDGRADE ==> "25E"
+MIG: 14:22:39 :  Invalid Param: DDR2_MEM_DEVICE_WIDTH ==> 16
+MIG: 14:22:39 :  Invalid Param: DDR2_AL ==> "0"
+MIG: 14:22:39 :  Invalid Param: DDR2_nAL ==> 0
+MIG: 14:22:39 :  Invalid Param: DDR2_BURST_MODE ==> "8"
+MIG: 14:22:39 :  Invalid Param: DDR2_BURST_TYPE ==> "SEQ"
+MIG: 14:22:39 :  Invalid Param: DDR2_CL ==> 5
+MIG: 14:22:39 :  Invalid Param: DDR2_OUTPUT_DRV ==> "HIGH"
+MIG: 14:22:39 :  Invalid Param: DDR2_RTT_NOM ==> "50"
+MIG: 14:22:39 :  Invalid Param: DDR2_ADDR_CMD_MODE ==> "1T"
+MIG: 14:22:39 : 
+MIG: 14:22:39 :  Valid Param: DDR2_REG_CTRL ==> OFF
+MIG: 14:22:39 :  Invalid Param: DDR2_CLKIN_PERIOD ==> 4999
+MIG: 14:22:39 :  Invalid Param: DDR2_CLKFBOUT_MULT ==> 6
+MIG: 14:22:39 :  Invalid Param: DDR2_DIVCLK_DIVIDE ==> 1
+MIG: 14:22:39 :  Invalid Param: DDR2_CLKOUT0_PHASE ==> 0.0
+MIG: 14:22:39 :  Invalid Param: DDR2_CLKOUT0_DIVIDE ==> 2
+MIG: 14:22:39 :  Invalid Param: DDR2_CLKOUT1_DIVIDE ==> 4
+MIG: 14:22:39 :  Invalid Param: DDR2_CLKOUT2_DIVIDE ==> 64
+MIG: 14:22:39 :  Invalid Param: DDR2_CLKOUT3_DIVIDE ==> 16
+MIG: 14:22:39 :  Invalid Param: DDR2_MMCM_VCO ==> 1200
+MIG: 14:22:39 :  Invalid Param: DDR2_MMCM_MULT_F ==> 15
+MIG: 14:22:39 :  Invalid Param: DDR2_MMCM_DIVCLK_DIVIDE ==> 1
+MIG: 14:22:39 :  Invalid Param: DDR2_tCKE ==> 7500
+MIG: 14:22:39 :  Invalid Param: DDR2_tFAW ==> 45000
+MIG: 14:22:39 :  Invalid Param: DDR2_tPRDI ==> 1_000_000
+MIG: 14:22:39 :  Invalid Param: DDR2_tRAS ==> 40000
+MIG: 14:22:39 :  Invalid Param: DDR2_tRCD ==> 15000
+MIG: 14:22:39 :  Invalid Param: DDR2_tREFI ==> 7800000
+MIG: 14:22:39 :  Invalid Param: DDR2_tRFC ==> 127500
+MIG: 14:22:39 :  Invalid Param: DDR2_tRP ==> 12500
+MIG: 14:22:39 :  Invalid Param: DDR2_tRRD ==> 10000
+MIG: 14:22:39 :  Invalid Param: DDR2_tRTP ==> 7500
+MIG: 14:22:39 :  Invalid Param: DDR2_tWTR ==> 7500
+MIG: 14:22:39 :  Invalid Param: DDR2_tZQI ==> 128_000_000
+MIG: 14:22:39 :  Invalid Param: DDR2_tZQCS ==> 64
+MIG: 14:22:39 :  Invalid Param: DDR2_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 14:22:39 :  Invalid Param: DDR2_SIMULATION ==> "FALSE"
+MIG: 14:22:39 :  Invalid Param: DDR2_BYTE_LANES_B0 ==> 4'b1111
+MIG: 14:22:39 :  Invalid Param: DDR2_BYTE_LANES_B1 ==> 4'b0000
+MIG: 14:22:39 :  Invalid Param: DDR2_BYTE_LANES_B2 ==> 4'b0000
+MIG: 14:22:39 :  Invalid Param: DDR2_BYTE_LANES_B3 ==> 4'b0000
+MIG: 14:22:39 :  Invalid Param: DDR2_BYTE_LANES_B4 ==> 4'b0000
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA_CTL_B0 ==> 4'b0101
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA_CTL_B1 ==> 4'b0000
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA_CTL_B2 ==> 4'b0000
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA_CTL_B3 ==> 4'b0000
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA_CTL_B4 ==> 4'b0000
+MIG: 14:22:39 :  Invalid Param: DDR2_PHY_0_BITLANES ==> 48'hFFC_3F7_FFF_3FE
+MIG: 14:22:39 :  Invalid Param: DDR2_PHY_1_BITLANES ==> 48'h000_000_000_000
+MIG: 14:22:39 :  Invalid Param: DDR2_PHY_2_BITLANES ==> 48'h000_000_000_000
+MIG: 14:22:39 :  Invalid Param: DDR2_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_03
+MIG: 14:22:39 :  Invalid Param: DDR2_ADDR_MAP ==> 192'h000_000_000_010_033_01A_019_032_03A_034_018_036_012_011_017_015
+MIG: 14:22:39 :  Invalid Param: DDR2_BANK_MAP ==> 36'h013_016_01B
+MIG: 14:22:39 :  Invalid Param: DDR2_CAS_MAP ==> 12'h039
+MIG: 14:22:39 :  Invalid Param: DDR2_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 14:22:39 :  Invalid Param: DDR2_CKE_MAP ==> 96'h000_000_000_000_000_000_000_038
+MIG: 14:22:39 :  Invalid Param: DDR2_ODT_MAP ==> 96'h000_000_000_000_000_000_000_035
+MIG: 14:22:39 :  Invalid Param: DDR2_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_037
+MIG: 14:22:39 :  Invalid Param: DDR2_PARITY_MAP ==> 12'h000
+MIG: 14:22:39 :  Invalid Param: DDR2_RAS_MAP ==> 12'h014
+MIG: 14:22:39 :  Invalid Param: DDR2_WE_MAP ==> 12'h03B
+MIG: 14:22:39 :  Invalid Param: DDR2_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_02_00
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA0_MAP ==> 96'h008_004_009_007_005_001_006_003
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA1_MAP ==> 96'h022_028_020_024_027_025_026_021
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA2_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA3_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA4_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA5_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA6_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA7_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:22:39 :  Invalid Param: DDR2_MASK0_MAP ==> 108'h000_000_000_000_000_000_000_029_002
+MIG: 14:22:39 :  Invalid Param: DDR2_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 14:22:39 :  Invalid Param: DDR2_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 14:22:39 :  Invalid Param: DDR2_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 14:22:39 :  Invalid Param: DDR2_IBUF_LPWR_MODE ==> "OFF"
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 14:22:39 :  Invalid Param: DDR2_BANK_TYPE ==> "HR_IO"
+MIG: 14:22:39 :  Invalid Param: DDR2_DATA_IO_PRIM_TYPE ==> "HR_LP"
+MIG: 14:22:39 :  Invalid Param: DDR2_CKE_ODT_AUX ==> "FALSE"
+MIG: 14:22:39 :  Invalid Param: DDR2_USER_REFRESH ==> "OFF"
+MIG: 14:22:39 :  Invalid Param: DDR2_WRLVL ==> "OFF"
+MIG: 14:22:39 :  Invalid Param: DDR2_ORDERING ==> "STRICT"
+MIG: 14:22:39 :  Invalid Param: DDR2_CALIB_ROW_ADD ==> 16'h0000
+MIG: 14:22:39 :  Invalid Param: DDR2_CALIB_COL_ADD ==> 12'h000
+MIG: 14:22:39 :  Invalid Param: DDR2_CALIB_BA_ADD ==> 3'h0
+MIG: 14:22:39 :  Invalid Param: DDR2_TCQ ==> 100
+MIG: 14:22:39 :  Invalid Param: DDR2_IODELAY_GRP0 ==> "MIG_7SERIES_0_IODELAY_MIG0"
+MIG: 14:22:39 :  Invalid Param: DDR2_SYSCLK_TYPE ==> "NO_BUFFER"
+MIG: 14:22:39 :  Invalid Param: DDR2_REFCLK_TYPE ==> "USE_SYSTEM_CLOCK"
+MIG: 14:22:39 :  Invalid Param: DDR2_SYS_RST_PORT ==> "FALSE"
+MIG: 14:22:39 :  Invalid Param: DDR2_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 14:22:39 :  Invalid Param: DDR2_DRAM_TYPE ==> "DDR2"
+MIG: 14:22:39 :  Invalid Param: DDR2_CAL_WIDTH ==> "HALF"
+MIG: 14:22:39 :  Invalid Param: DDR2_STARVE_LIMIT ==> 2
+MIG: 14:22:39 :  Invalid Param: DDR2_REFCLK_FREQ ==> 200.0
+MIG: 14:22:39 :  Invalid Param: DDR2_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 14:22:39 :  Invalid Param: DDR2_tCK ==> 3333
+MIG: 14:22:39 : 
+MIG: 14:22:39 :  Valid Param: DDR2_nCK_PER_CLK ==> 4
+MIG: 14:22:39 :  Invalid Param: DDR2_DIFF_TERM_SYSCLK ==> "TRUE"
+MIG: 14:22:39 : 
+MIG: 14:22:39 :  Valid Param: DDR2_DEBUG_PORT ==> OFF
+MIG: 14:22:39 : 
+MIG: 14:22:39 :  Invalid Param: DDR2_TEMP_MON_CONTROL ==> "EXTERNAL"
+MIG: 14:22:39 : 
+MIG: 14:22:39 : 
+MIG: 14:22:39 : 
+MIG: 14:22:39 : Same Interface
+MIG: 14:22:50 : Running synthesis.xit
+MIG: 14:22:50 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 14:22:50 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 14:22:50 : Running vlog_synth_rpr.xit
+MIG: 14:22:50 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 14:22:50 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 14:22:50 : Running simulation.xit
+MIG: 14:22:50 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 14:22:50 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 14:22:50 : Running vlog_sim_rpr.xit .. PRASAD DBG1
+MIG: 14:22:50 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 14:22:50 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 14:22:50 : Running implementation.xit
+MIG: 14:22:50 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 14:22:50 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 14:35:33 : Running customizer.xit
+MIG: 14:35:33 : ################# RUNNING MIG INTERACTIVE ###################
+MIG: 14:35:33 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/.Xil/Vivado-19543-ffx/coregen/mig_7series_0
+MIG: 14:35:33 : synp_flow:  -- synthesis_mode: Other
+MIG: 14:35:33 : outputDirectory: /home/miura/.Xil/Vivado-19543-ffx/coregen/mig_7series_0/_tmp/
+MIG: 14:35:33 : vivado_mode: xpg_pa
+MIG: 14:35:33 :  locked false  
+MIG: 14:35:33 : HDL Language: Verilog
+MIG: 14:35:33 : compInfo: false
+MIG: 14:35:33 : Vivado Options xc7a100t csg324 -1
+MIG: 14:35:33 : 1: xc7a100t 2: csg324 3: -1
+MIG: 14:35:33 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 14:35:33 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 14:35:33 : I am in catch area
+MIG: 14:35:33 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/.Xil/Vivado-19543-ffx/coregen/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/.Xil/Vivado-19543-ffx/coregen/mig_7series_0/xil_txt.out ... 
+MIG: 14:36:20 : Prasad before: xmlPropertyPrj -- mig_a.prj
+MIG: 14:36:20 : Prasad After: xmlPropertyPrj -- mig_b.prj
+MIG: 14:36:20 : XML_INPUT_FILE: /home/miura/.Xil/Vivado-19543-ffx/coregen/mig_7series_0/mig_b.prj
+MIG: 14:36:20 : Component_Name: mig_7series_0
+MIG: 14:36:20 : Moving mig_7series_0.veo ...
+MIG: 14:36:20 : Moving mig_7series_0 ...
+MIG: 14:36:20 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 14:36:20 : Sending back 0
+MIG: 14:36:21 : xml_input_file: mig_b.prj
+MIG: 14:36:21 : Absolute path of xml_input_file: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_b.prj
+MIG: 14:36:21 : xml_input_file: mig_b.prj
+MIG: 14:36:21 : Absolute path of xml_input_file: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_b.prj
+MIG: 14:36:21 : In updateAllModelParams
+MIG: 14:36:21 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 14:36:21 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 14:36:21 : XGUI hdlLanguage: Verilog
+MIG: 14:36:21 : xgui vivado_mode: xpg_pa
+MIG: 14:36:21 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 14:36:21 : Reading /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig.v ...
+MIG: 14:36:22 : 
+MIG: 14:36:22 : Inside fn mem: DDR2
+MIG: 14:36:22 : detect_uiclk: 75007501
+MIG: 14:36:22 : cntrl:  memtype: DDR2
+MIG: 14:36:22 : 
+MIG: 14:36:22 :  MMCM_VCO single ctrl param_name: MMCM_VCO --  possibleMaxVcoVal: 1200 
+MIG: 14:36:22 : 
+MIG: 14:36:22 : 
+MIG: 14:36:22 : 
+MIG: 14:36:22 : 
+MIG: 14:36:22 :  polarity_value: 1
+MIG: 14:36:22 : 
+MIG: 14:36:22 : 
+MIG: 14:36:22 : cntrl:  memtype: DDR2
+MIG: 14:36:22 :  Invalid Param: DDR2_RST_ACT_LOW ==> 1
+MIG: 14:36:22 : 
+MIG: 14:36:22 :  Valid Param: DDR2_BANK_WIDTH ==> 3
+MIG: 14:36:22 : 
+MIG: 14:36:22 :  Valid Param: DDR2_CK_WIDTH ==> 1
+MIG: 14:36:22 :  Invalid Param: DDR2_COL_WIDTH ==> 10
+MIG: 14:36:22 : 
+MIG: 14:36:22 :  Valid Param: DDR2_CS_WIDTH ==> 1
+MIG: 14:36:22 : 
+MIG: 14:36:22 :  Valid Param: DDR2_nCS_PER_RANK ==> 1
+MIG: 14:36:22 : 
+MIG: 14:36:22 :  Valid Param: DDR2_CKE_WIDTH ==> 1
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 14:36:22 :  Invalid Param: DDR2_DQ_CNT_WIDTH ==> 4
+MIG: 14:36:22 :  Invalid Param: DDR2_DQ_PER_DM ==> 8
+MIG: 14:36:22 : 
+MIG: 14:36:22 :  Valid Param: DDR2_DM_WIDTH ==> 2
+MIG: 14:36:22 : 
+MIG: 14:36:22 :  Valid Param: DDR2_DQ_WIDTH ==> 16
+MIG: 14:36:22 : 
+MIG: 14:36:22 :  Valid Param: DDR2_DQS_WIDTH ==> 2
+MIG: 14:36:22 : 
+MIG: 14:36:22 :  Valid Param: DDR2_DQS_CNT_WIDTH ==> 1
+MIG: 14:36:22 :  Invalid Param: DDR2_DRAM_WIDTH ==> 8
+MIG: 14:36:22 : 
+MIG: 14:36:22 :  Valid Param: ECC ==> OFF
+MIG: 14:36:22 : 
+MIG: 14:36:22 :  Valid Param: DDR2_DATA_WIDTH ==> 16
+MIG: 14:36:22 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 14:36:22 :  Invalid Param: DDR2_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 14:36:22 :  Invalid Param: DDR2_MEM_ADDR_ORDER ==> "BANK_ROW_COLUMN"
+MIG: 14:36:22 :  Invalid Param: DDR2_nBANK_MACHS ==> 2
+MIG: 14:36:22 :  Invalid Param: DDR2_RANKS ==> 1
+MIG: 14:36:22 : 
+MIG: 14:36:22 :  Valid Param: DDR2_ODT_WIDTH ==> 1
+MIG: 14:36:22 : 
+MIG: 14:36:22 :  Valid Param: DDR2_ROW_WIDTH ==> 13
+MIG: 14:36:22 : 
+MIG: 14:36:22 :  Valid Param: DDR2_ADDR_WIDTH ==> 27
+MIG: 14:36:22 : 
+MIG: 14:36:22 :  Valid Param: DDR2_USE_CS_PORT ==> 1
+MIG: 14:36:22 : 
+MIG: 14:36:22 :  Valid Param: DDR2_USE_DM_PORT ==> 1
+MIG: 14:36:22 : 
+MIG: 14:36:22 :  Valid Param: DDR2_USE_ODT_PORT ==> 1
+MIG: 14:36:22 :  Invalid Param: DDR2_PHY_CONTROL_MASTER_BANK ==> 0
+MIG: 14:36:22 :  Invalid Param: DDR2_MEM_DENSITY ==> "1Gb"
+MIG: 14:36:22 :  Invalid Param: DDR2_MEM_SPEEDGRADE ==> "25E"
+MIG: 14:36:22 :  Invalid Param: DDR2_MEM_DEVICE_WIDTH ==> 16
+MIG: 14:36:22 :  Invalid Param: DDR2_AL ==> "0"
+MIG: 14:36:22 :  Invalid Param: DDR2_nAL ==> 0
+MIG: 14:36:22 :  Invalid Param: DDR2_BURST_MODE ==> "8"
+MIG: 14:36:22 :  Invalid Param: DDR2_BURST_TYPE ==> "SEQ"
+MIG: 14:36:22 :  Invalid Param: DDR2_CL ==> 5
+MIG: 14:36:22 :  Invalid Param: DDR2_OUTPUT_DRV ==> "HIGH"
+MIG: 14:36:22 :  Invalid Param: DDR2_RTT_NOM ==> "50"
+MIG: 14:36:22 :  Invalid Param: DDR2_ADDR_CMD_MODE ==> "1T"
+MIG: 14:36:22 : 
+MIG: 14:36:22 :  Valid Param: DDR2_REG_CTRL ==> OFF
+MIG: 14:36:22 :  Invalid Param: DDR2_CLKIN_PERIOD ==> 4999
+MIG: 14:36:22 :  Invalid Param: DDR2_CLKFBOUT_MULT ==> 6
+MIG: 14:36:22 :  Invalid Param: DDR2_DIVCLK_DIVIDE ==> 1
+MIG: 14:36:22 :  Invalid Param: DDR2_CLKOUT0_PHASE ==> 0.0
+MIG: 14:36:22 :  Invalid Param: DDR2_CLKOUT0_DIVIDE ==> 2
+MIG: 14:36:22 :  Invalid Param: DDR2_CLKOUT1_DIVIDE ==> 4
+MIG: 14:36:22 :  Invalid Param: DDR2_CLKOUT2_DIVIDE ==> 64
+MIG: 14:36:22 :  Invalid Param: DDR2_CLKOUT3_DIVIDE ==> 16
+MIG: 14:36:22 :  Invalid Param: DDR2_MMCM_VCO ==> 1200
+MIG: 14:36:22 :  Invalid Param: DDR2_MMCM_MULT_F ==> 15
+MIG: 14:36:22 :  Invalid Param: DDR2_MMCM_DIVCLK_DIVIDE ==> 1
+MIG: 14:36:22 :  Invalid Param: DDR2_tCKE ==> 7500
+MIG: 14:36:22 :  Invalid Param: DDR2_tFAW ==> 45000
+MIG: 14:36:22 :  Invalid Param: DDR2_tPRDI ==> 1_000_000
+MIG: 14:36:22 :  Invalid Param: DDR2_tRAS ==> 40000
+MIG: 14:36:22 :  Invalid Param: DDR2_tRCD ==> 15000
+MIG: 14:36:22 :  Invalid Param: DDR2_tREFI ==> 7800000
+MIG: 14:36:22 :  Invalid Param: DDR2_tRFC ==> 127500
+MIG: 14:36:22 :  Invalid Param: DDR2_tRP ==> 12500
+MIG: 14:36:22 :  Invalid Param: DDR2_tRRD ==> 10000
+MIG: 14:36:22 :  Invalid Param: DDR2_tRTP ==> 7500
+MIG: 14:36:22 :  Invalid Param: DDR2_tWTR ==> 7500
+MIG: 14:36:22 :  Invalid Param: DDR2_tZQI ==> 128_000_000
+MIG: 14:36:22 :  Invalid Param: DDR2_tZQCS ==> 64
+MIG: 14:36:22 :  Invalid Param: DDR2_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 14:36:22 :  Invalid Param: DDR2_SIMULATION ==> "FALSE"
+MIG: 14:36:22 :  Invalid Param: DDR2_BYTE_LANES_B0 ==> 4'b1111
+MIG: 14:36:22 :  Invalid Param: DDR2_BYTE_LANES_B1 ==> 4'b0000
+MIG: 14:36:22 :  Invalid Param: DDR2_BYTE_LANES_B2 ==> 4'b0000
+MIG: 14:36:22 :  Invalid Param: DDR2_BYTE_LANES_B3 ==> 4'b0000
+MIG: 14:36:22 :  Invalid Param: DDR2_BYTE_LANES_B4 ==> 4'b0000
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA_CTL_B0 ==> 4'b0101
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA_CTL_B1 ==> 4'b0000
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA_CTL_B2 ==> 4'b0000
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA_CTL_B3 ==> 4'b0000
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA_CTL_B4 ==> 4'b0000
+MIG: 14:36:22 :  Invalid Param: DDR2_PHY_0_BITLANES ==> 48'hFFC_3F7_FFF_3FE
+MIG: 14:36:22 :  Invalid Param: DDR2_PHY_1_BITLANES ==> 48'h000_000_000_000
+MIG: 14:36:22 :  Invalid Param: DDR2_PHY_2_BITLANES ==> 48'h000_000_000_000
+MIG: 14:36:22 :  Invalid Param: DDR2_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_03
+MIG: 14:36:22 :  Invalid Param: DDR2_ADDR_MAP ==> 192'h000_000_000_010_033_01A_019_032_03A_034_018_036_012_011_017_015
+MIG: 14:36:22 :  Invalid Param: DDR2_BANK_MAP ==> 36'h013_016_01B
+MIG: 14:36:22 :  Invalid Param: DDR2_CAS_MAP ==> 12'h039
+MIG: 14:36:22 :  Invalid Param: DDR2_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 14:36:22 :  Invalid Param: DDR2_CKE_MAP ==> 96'h000_000_000_000_000_000_000_038
+MIG: 14:36:22 :  Invalid Param: DDR2_ODT_MAP ==> 96'h000_000_000_000_000_000_000_035
+MIG: 14:36:22 :  Invalid Param: DDR2_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_037
+MIG: 14:36:22 :  Invalid Param: DDR2_PARITY_MAP ==> 12'h000
+MIG: 14:36:22 :  Invalid Param: DDR2_RAS_MAP ==> 12'h014
+MIG: 14:36:22 :  Invalid Param: DDR2_WE_MAP ==> 12'h03B
+MIG: 14:36:22 :  Invalid Param: DDR2_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_02_00
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA0_MAP ==> 96'h008_004_009_007_005_001_006_003
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA1_MAP ==> 96'h022_028_020_024_027_025_026_021
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA2_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA3_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA4_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA5_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA6_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA7_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 14:36:22 :  Invalid Param: DDR2_MASK0_MAP ==> 108'h000_000_000_000_000_000_000_029_002
+MIG: 14:36:22 :  Invalid Param: DDR2_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 14:36:22 :  Invalid Param: DDR2_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 14:36:22 :  Invalid Param: DDR2_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 14:36:22 :  Invalid Param: DDR2_IBUF_LPWR_MODE ==> "OFF"
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 14:36:22 :  Invalid Param: DDR2_BANK_TYPE ==> "HR_IO"
+MIG: 14:36:22 :  Invalid Param: DDR2_DATA_IO_PRIM_TYPE ==> "HR_LP"
+MIG: 14:36:22 :  Invalid Param: DDR2_CKE_ODT_AUX ==> "FALSE"
+MIG: 14:36:22 :  Invalid Param: DDR2_USER_REFRESH ==> "OFF"
+MIG: 14:36:22 :  Invalid Param: DDR2_WRLVL ==> "OFF"
+MIG: 14:36:22 :  Invalid Param: DDR2_ORDERING ==> "STRICT"
+MIG: 14:36:22 :  Invalid Param: DDR2_CALIB_ROW_ADD ==> 16'h0000
+MIG: 14:36:22 :  Invalid Param: DDR2_CALIB_COL_ADD ==> 12'h000
+MIG: 14:36:22 :  Invalid Param: DDR2_CALIB_BA_ADD ==> 3'h0
+MIG: 14:36:22 :  Invalid Param: DDR2_TCQ ==> 100
+MIG: 14:36:22 :  Invalid Param: DDR2_IODELAY_GRP0 ==> "MIG_7SERIES_0_IODELAY_MIG0"
+MIG: 14:36:22 :  Invalid Param: DDR2_SYSCLK_TYPE ==> "NO_BUFFER"
+MIG: 14:36:22 :  Invalid Param: DDR2_REFCLK_TYPE ==> "USE_SYSTEM_CLOCK"
+MIG: 14:36:22 :  Invalid Param: DDR2_SYS_RST_PORT ==> "FALSE"
+MIG: 14:36:22 :  Invalid Param: DDR2_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 14:36:22 :  Invalid Param: DDR2_DRAM_TYPE ==> "DDR2"
+MIG: 14:36:22 :  Invalid Param: DDR2_CAL_WIDTH ==> "HALF"
+MIG: 14:36:22 :  Invalid Param: DDR2_STARVE_LIMIT ==> 2
+MIG: 14:36:22 :  Invalid Param: DDR2_REFCLK_FREQ ==> 200.0
+MIG: 14:36:22 :  Invalid Param: DDR2_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 14:36:22 :  Invalid Param: DDR2_tCK ==> 3333
+MIG: 14:36:22 : 
+MIG: 14:36:22 :  Valid Param: DDR2_nCK_PER_CLK ==> 4
+MIG: 14:36:22 :  Invalid Param: DDR2_DIFF_TERM_SYSCLK ==> "TRUE"
+MIG: 14:36:22 : 
+MIG: 14:36:22 :  Valid Param: DDR2_DEBUG_PORT ==> OFF
+MIG: 14:36:22 : 
+MIG: 14:36:22 :  Invalid Param: DDR2_TEMP_MON_CONTROL ==> "EXTERNAL"
+MIG: 14:36:22 : 
+MIG: 14:36:22 : 
+MIG: 14:36:22 : 
+MIG: 14:36:22 : Same Interface
+MIG: 14:36:26 : Running synthesis.xit
+MIG: 14:36:26 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 14:36:26 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 14:36:26 : Running vlog_synth_rpr.xit
+MIG: 14:36:26 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 14:36:26 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 14:36:26 : Running simulation.xit
+MIG: 14:36:26 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 14:36:26 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 14:36:26 : Running vlog_sim_rpr.xit .. PRASAD DBG1
+MIG: 14:36:26 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 14:36:26 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 14:36:26 : Running implementation.xit
+MIG: 14:36:26 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 14:36:26 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 15:24:07 : Running synthesis.xit
+MIG: 15:24:07 : ################# RUNNING MIG BATCH ###################
+MIG: 15:24:07 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0
+MIG: 15:24:07 : synp_flow:  -- synthesis_mode: Other
+MIG: 15:24:07 : outputDirectory: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 15:24:07 : vivado_mode: xpg_pa
+MIG: 15:24:07 :  locked false  
+MIG: 15:24:07 : HDL Language: Verilog
+MIG: 15:24:07 : compInfo: false
+MIG: 15:24:07 : Vivado Options xc7a100t csg324 -1
+MIG: 15:24:07 : 1: xc7a100t 2: csg324 3: -1
+MIG: 15:24:07 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 15:24:07 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 15:24:07 : I am in catch area
+MIG: 15:24:07 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 15:24:16 : XML_INPUT_FILE: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_b.prj
+MIG: 15:24:16 : Component_Name: mig_7series_0
+MIG: 15:24:16 : Moving mig_7series_0.veo ...
+MIG: 15:24:16 : Moving mig_7series_0 ...
+MIG: 15:24:16 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 15:24:16 : Running vlog_synth_rpr.xit
+MIG: 15:24:16 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 15:24:16 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 15:24:16 : Running implementation.xit
+MIG: 15:24:16 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 15:24:16 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 17:27:30 : Running synthesis.xit
+MIG: 17:27:30 : ################# RUNNING MIG BATCH ###################
+MIG: 17:27:30 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0
+MIG: 17:27:30 : synp_flow:  -- synthesis_mode: Other
+MIG: 17:27:30 : outputDirectory: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 17:27:30 : vivado_mode: xpg_pa
+MIG: 17:27:30 :  locked false  
+MIG: 17:27:30 : HDL Language: Verilog
+MIG: 17:27:30 : compInfo: false
+MIG: 17:27:30 : Vivado Options xc7a100t csg324 -1
+MIG: 17:27:30 : 1: xc7a100t 2: csg324 3: -1
+MIG: 17:27:30 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 17:27:30 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 17:27:30 : I am in catch area
+MIG: 17:27:30 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 17:27:39 : XML_INPUT_FILE: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_b.prj
+MIG: 17:27:39 : Component_Name: mig_7series_0
+MIG: 17:27:39 : Moving mig_7series_0.veo ...
+MIG: 17:27:39 : Moving mig_7series_0 ...
+MIG: 17:27:39 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 17:27:39 : Running vlog_synth_rpr.xit
+MIG: 17:27:39 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 17:27:39 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 17:27:39 : Running implementation.xit
+MIG: 17:27:39 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 17:27:39 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 12:57:37 : Running synthesis.xit
+MIG: 12:57:37 : ################# RUNNING MIG BATCH ###################
+MIG: 12:57:37 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0
+MIG: 12:57:37 : synp_flow:  -- synthesis_mode: Other
+MIG: 12:57:37 : outputDirectory: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 12:57:37 : vivado_mode: xpg_pa
+MIG: 12:57:37 :  locked false  
+MIG: 12:57:37 : HDL Language: Verilog
+MIG: 12:57:37 : compInfo: false
+MIG: 12:57:37 : Vivado Options xc7a100t csg324 -1
+MIG: 12:57:37 : 1: xc7a100t 2: csg324 3: -1
+MIG: 12:57:37 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 12:57:37 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 12:57:37 : I am in catch area
+MIG: 12:57:37 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 12:57:46 : XML_INPUT_FILE: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_b.prj
+MIG: 12:57:46 : Component_Name: mig_7series_0
+MIG: 12:57:46 : Moving mig_7series_0.veo ...
+MIG: 12:57:46 : Moving mig_7series_0 ...
+MIG: 12:57:46 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 12:57:46 : Running vlog_synth_rpr.xit
+MIG: 12:57:46 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 12:57:46 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 12:57:46 : Running implementation.xit
+MIG: 12:57:46 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 12:57:46 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 16:15:51 : Running synthesis.xit
+MIG: 16:15:51 : ################# RUNNING MIG BATCH ###################
+MIG: 16:15:51 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0
+MIG: 16:15:51 : synp_flow:  -- synthesis_mode: Other
+MIG: 16:15:51 : outputDirectory: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 16:15:51 : vivado_mode: xpg_pa
+MIG: 16:15:51 :  locked false  
+MIG: 16:15:51 : HDL Language: Verilog
+MIG: 16:15:51 : compInfo: false
+MIG: 16:15:51 : Vivado Options xc7a100t csg324 -1
+MIG: 16:15:51 : 1: xc7a100t 2: csg324 3: -1
+MIG: 16:15:51 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 16:15:51 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 16:15:51 : I am in catch area
+MIG: 16:15:51 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 16:16:00 : XML_INPUT_FILE: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_b.prj
+MIG: 16:16:00 : Component_Name: mig_7series_0
+MIG: 16:16:00 : Moving mig_7series_0.veo ...
+MIG: 16:16:00 : Moving mig_7series_0 ...
+MIG: 16:16:00 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 16:16:00 : Running vlog_synth_rpr.xit
+MIG: 16:16:00 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 16:16:00 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 16:16:01 : Running implementation.xit
+MIG: 16:16:01 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 16:16:01 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 18:57:38 : Running synthesis.xit
+MIG: 18:57:38 : ################# RUNNING MIG BATCH ###################
+MIG: 18:57:38 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0
+MIG: 18:57:38 : synp_flow:  -- synthesis_mode: Other
+MIG: 18:57:38 : outputDirectory: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 18:57:38 : vivado_mode: xpg_pa
+MIG: 18:57:38 :  locked false  
+MIG: 18:57:38 : HDL Language: Verilog
+MIG: 18:57:38 : compInfo: false
+MIG: 18:57:38 : Vivado Options xc7a100t csg324 -1
+MIG: 18:57:38 : 1: xc7a100t 2: csg324 3: -1
+MIG: 18:57:38 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 18:57:38 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 18:57:38 : I am in catch area
+MIG: 18:57:38 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 18:57:47 : XML_INPUT_FILE: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_b.prj
+MIG: 18:57:47 : Component_Name: mig_7series_0
+MIG: 18:57:47 : Moving mig_7series_0.veo ...
+MIG: 18:57:47 : Moving mig_7series_0 ...
+MIG: 18:57:47 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 18:57:47 : Running vlog_synth_rpr.xit
+MIG: 18:57:47 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 18:57:47 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 18:57:47 : Running implementation.xit
+MIG: 18:57:47 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 18:57:47 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 14:49:23 : Running synthesis.xit
+MIG: 14:49:23 : ################# RUNNING MIG BATCH ###################
+MIG: 14:49:23 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0
+MIG: 14:49:23 : synp_flow:  -- synthesis_mode: Other
+MIG: 14:49:23 : outputDirectory: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 14:49:23 : vivado_mode: xpg_pa
+MIG: 14:49:23 :  locked false  
+MIG: 14:49:23 : HDL Language: Verilog
+MIG: 14:49:23 : compInfo: false
+MIG: 14:49:23 : Vivado Options xc7a100t csg324 -1
+MIG: 14:49:23 : 1: xc7a100t 2: csg324 3: -1
+MIG: 14:49:23 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 14:49:23 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 14:49:23 : I am in catch area
+MIG: 14:49:23 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 14:49:32 : XML_INPUT_FILE: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_b.prj
+MIG: 14:49:32 : Component_Name: mig_7series_0
+MIG: 14:49:32 : Moving mig_7series_0.veo ...
+MIG: 14:49:32 : Moving mig_7series_0 ...
+MIG: 14:49:32 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 14:49:32 : Running vlog_synth_rpr.xit
+MIG: 14:49:32 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 14:49:33 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 14:49:33 : Running implementation.xit
+MIG: 14:49:33 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 14:49:33 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 18:42:05 : Running synthesis.xit
+MIG: 18:42:05 : ################# RUNNING MIG BATCH ###################
+MIG: 18:42:05 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0
+MIG: 18:42:05 : synp_flow:  -- synthesis_mode: Other
+MIG: 18:42:05 : outputDirectory: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 18:42:05 : vivado_mode: xpg_pa
+MIG: 18:42:05 :  locked false  
+MIG: 18:42:05 : HDL Language: Verilog
+MIG: 18:42:05 : compInfo: false
+MIG: 18:42:05 : Vivado Options xc7a100t csg324 -1
+MIG: 18:42:05 : 1: xc7a100t 2: csg324 3: -1
+MIG: 18:42:05 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 18:42:05 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 18:42:05 : I am in catch area
+MIG: 18:42:05 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 18:42:14 : XML_INPUT_FILE: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_b.prj
+MIG: 18:42:14 : Component_Name: mig_7series_0
+MIG: 18:42:14 : Moving mig_7series_0.veo ...
+MIG: 18:42:14 : Moving mig_7series_0 ...
+MIG: 18:42:14 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 18:42:14 : Running vlog_synth_rpr.xit
+MIG: 18:42:14 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 18:42:14 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 18:42:15 : Running implementation.xit
+MIG: 18:42:15 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 18:42:15 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 19:49:32 : Running synthesis.xit
+MIG: 19:49:32 : ################# RUNNING MIG BATCH ###################
+MIG: 19:49:32 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0
+MIG: 19:49:32 : synp_flow:  -- synthesis_mode: Other
+MIG: 19:49:32 : outputDirectory: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 19:49:32 : vivado_mode: xpg_pa
+MIG: 19:49:32 :  locked false  
+MIG: 19:49:32 : HDL Language: Verilog
+MIG: 19:49:32 : compInfo: false
+MIG: 19:49:32 : Vivado Options xc7a100t csg324 -1
+MIG: 19:49:32 : 1: xc7a100t 2: csg324 3: -1
+MIG: 19:49:32 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 19:49:32 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 19:49:32 : I am in catch area
+MIG: 19:49:32 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 19:49:41 : XML_INPUT_FILE: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_b.prj
+MIG: 19:49:41 : Component_Name: mig_7series_0
+MIG: 19:49:41 : Moving mig_7series_0.veo ...
+MIG: 19:49:41 : Moving mig_7series_0 ...
+MIG: 19:49:41 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 19:49:41 : Running vlog_synth_rpr.xit
+MIG: 19:49:41 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 19:49:41 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 19:49:41 : Running implementation.xit
+MIG: 19:49:41 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 19:49:41 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 19:51:45 : Running synthesis.xit
+MIG: 19:51:45 : ################# RUNNING MIG BATCH ###################
+MIG: 19:51:45 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0
+MIG: 19:51:45 : synp_flow:  -- synthesis_mode: Other
+MIG: 19:51:45 : outputDirectory: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 19:51:45 : vivado_mode: xpg_pa
+MIG: 19:51:45 :  locked false  
+MIG: 19:51:45 : HDL Language: Verilog
+MIG: 19:51:45 : compInfo: false
+MIG: 19:51:45 : Vivado Options xc7a100t csg324 -1
+MIG: 19:51:45 : 1: xc7a100t 2: csg324 3: -1
+MIG: 19:51:45 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 19:51:45 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 19:51:45 : I am in catch area
+MIG: 19:51:45 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 19:51:56 : XML_INPUT_FILE: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_b.prj
+MIG: 19:51:56 : Component_Name: mig_7series_0
+MIG: 19:51:56 : Moving mig_7series_0.veo ...
+MIG: 19:51:56 : Moving mig_7series_0 ...
+MIG: 19:51:56 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 19:51:56 : Running vlog_synth_rpr.xit
+MIG: 19:51:56 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 19:51:56 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 19:51:56 : Running implementation.xit
+MIG: 19:51:56 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 19:51:56 : IGN:         <InputClkFreq>200.02</InputClkFreq> <==>         <InputClkFreq>200.02</InputClkFreq> 
+MIG: 12:22:10 : xml_input_file: mig_b.prj
+MIG: 12:22:10 : Absolute path of xml_input_file: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_b.prj
+MIG: 12:22:10 : xml_input_file: mig_b.prj
+MIG: 12:22:10 : Absolute path of xml_input_file: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_b.prj
+MIG: 12:22:11 : Running customizer.xit
+MIG: 12:22:11 : ################# RUNNING MIG INTERACTIVE ###################
+MIG: 12:22:11 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/.Xil/Vivado-32749-ffx/coregen/mig_7series_0
+MIG: 12:22:11 : synp_flow:  -- synthesis_mode: Other
+MIG: 12:22:11 : outputDirectory: /home/miura/.Xil/Vivado-32749-ffx/coregen/mig_7series_0/_tmp/
+MIG: 12:22:11 : vivado_mode: xpg_pa
+MIG: 12:22:11 :  locked false  
+MIG: 12:22:11 : HDL Language: Verilog
+MIG: 12:22:11 : compInfo: false
+MIG: 12:22:11 : Vivado Options xc7a100t csg324 -1
+MIG: 12:22:11 : 1: xc7a100t 2: csg324 3: -1
+MIG: 12:22:11 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 12:22:11 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 12:22:11 : I am in catch area
+MIG: 12:22:11 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/.Xil/Vivado-32749-ffx/coregen/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/.Xil/Vivado-32749-ffx/coregen/mig_7series_0/xil_txt.out ... 
+MIG: 12:43:27 : Prasad before: xmlPropertyPrj -- mig_b.prj
+MIG: 12:43:27 : Prasad After: xmlPropertyPrj -- mig_a.prj
+MIG: 12:43:27 : XML_INPUT_FILE: /home/miura/.Xil/Vivado-32749-ffx/coregen/mig_7series_0/mig_a.prj
+MIG: 12:43:27 : Component_Name: mig_7series_0
+MIG: 12:43:27 : Moving mig_7series_0.veo ...
+MIG: 12:43:27 : Moving mig_7series_0 ...
+MIG: 12:43:27 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 12:43:27 : Sending back 0
+MIG: 12:43:28 : xml_input_file: mig_a.prj
+MIG: 12:43:28 : Absolute path of xml_input_file: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 12:43:28 : xml_input_file: mig_a.prj
+MIG: 12:43:28 : Absolute path of xml_input_file: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 12:43:28 : In updateAllModelParams
+MIG: 12:43:28 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 12:43:28 : IGN:         <InputClkFreq>199.995</InputClkFreq> <==>         <InputClkFreq>199.995</InputClkFreq> 
+MIG: 12:43:28 : XGUI hdlLanguage: Verilog
+MIG: 12:43:28 : xgui vivado_mode: xpg_pa
+MIG: 12:43:28 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 12:43:28 : Reading /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig.v ...
+MIG: 12:43:29 : 
+MIG: 12:43:29 : Inside fn mem: DDR2
+MIG: 12:43:29 : detect_uiclk: 81247969
+MIG: 12:43:29 : cntrl:  memtype: DDR2
+MIG: 12:43:29 : 
+MIG: 12:43:29 :  MMCM_VCO single ctrl param_name: MMCM_VCO --  possibleMaxVcoVal: 1200 
+MIG: 12:43:29 : 
+MIG: 12:43:29 : 
+MIG: 12:43:29 : 81247969
+MIG: 12:43:29 : 
+MIG: 12:43:29 :  polarity_value: 1
+MIG: 12:43:29 : 
+MIG: 12:43:29 : 
+MIG: 12:43:29 : cntrl:  memtype: DDR2
+MIG: 12:43:29 :  Invalid Param: DDR2_RST_ACT_LOW ==> 1
+MIG: 12:43:29 : 
+MIG: 12:43:29 :  Valid Param: DDR2_BANK_WIDTH ==> 3
+MIG: 12:43:29 : 
+MIG: 12:43:29 :  Valid Param: DDR2_CK_WIDTH ==> 1
+MIG: 12:43:29 :  Invalid Param: DDR2_COL_WIDTH ==> 10
+MIG: 12:43:29 : 
+MIG: 12:43:29 :  Valid Param: DDR2_CS_WIDTH ==> 1
+MIG: 12:43:29 : 
+MIG: 12:43:29 :  Valid Param: DDR2_nCS_PER_RANK ==> 1
+MIG: 12:43:29 : 
+MIG: 12:43:29 :  Valid Param: DDR2_CKE_WIDTH ==> 1
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 12:43:29 :  Invalid Param: DDR2_DQ_CNT_WIDTH ==> 4
+MIG: 12:43:29 :  Invalid Param: DDR2_DQ_PER_DM ==> 8
+MIG: 12:43:29 : 
+MIG: 12:43:29 :  Valid Param: DDR2_DM_WIDTH ==> 2
+MIG: 12:43:29 : 
+MIG: 12:43:29 :  Valid Param: DDR2_DQ_WIDTH ==> 16
+MIG: 12:43:29 : 
+MIG: 12:43:29 :  Valid Param: DDR2_DQS_WIDTH ==> 2
+MIG: 12:43:29 : 
+MIG: 12:43:29 :  Valid Param: DDR2_DQS_CNT_WIDTH ==> 1
+MIG: 12:43:29 :  Invalid Param: DDR2_DRAM_WIDTH ==> 8
+MIG: 12:43:29 : 
+MIG: 12:43:29 :  Valid Param: ECC ==> OFF
+MIG: 12:43:29 : 
+MIG: 12:43:29 :  Valid Param: DDR2_DATA_WIDTH ==> 16
+MIG: 12:43:29 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 12:43:29 :  Invalid Param: DDR2_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 12:43:29 :  Invalid Param: DDR2_MEM_ADDR_ORDER ==> "BANK_ROW_COLUMN"
+MIG: 12:43:29 :  Invalid Param: DDR2_nBANK_MACHS ==> 2
+MIG: 12:43:29 :  Invalid Param: DDR2_RANKS ==> 1
+MIG: 12:43:29 : 
+MIG: 12:43:29 :  Valid Param: DDR2_ODT_WIDTH ==> 1
+MIG: 12:43:29 : 
+MIG: 12:43:29 :  Valid Param: DDR2_ROW_WIDTH ==> 13
+MIG: 12:43:29 : 
+MIG: 12:43:29 :  Valid Param: DDR2_ADDR_WIDTH ==> 27
+MIG: 12:43:29 : 
+MIG: 12:43:29 :  Valid Param: DDR2_USE_CS_PORT ==> 1
+MIG: 12:43:29 : 
+MIG: 12:43:29 :  Valid Param: DDR2_USE_DM_PORT ==> 1
+MIG: 12:43:29 : 
+MIG: 12:43:29 :  Valid Param: DDR2_USE_ODT_PORT ==> 1
+MIG: 12:43:29 :  Invalid Param: DDR2_PHY_CONTROL_MASTER_BANK ==> 0
+MIG: 12:43:29 :  Invalid Param: DDR2_MEM_DENSITY ==> "1Gb"
+MIG: 12:43:29 :  Invalid Param: DDR2_MEM_SPEEDGRADE ==> "25E"
+MIG: 12:43:29 :  Invalid Param: DDR2_MEM_DEVICE_WIDTH ==> 16
+MIG: 12:43:29 :  Invalid Param: DDR2_AL ==> "0"
+MIG: 12:43:29 :  Invalid Param: DDR2_nAL ==> 0
+MIG: 12:43:29 :  Invalid Param: DDR2_BURST_MODE ==> "8"
+MIG: 12:43:29 :  Invalid Param: DDR2_BURST_TYPE ==> "SEQ"
+MIG: 12:43:29 :  Invalid Param: DDR2_CL ==> 5
+MIG: 12:43:29 :  Invalid Param: DDR2_OUTPUT_DRV ==> "HIGH"
+MIG: 12:43:29 :  Invalid Param: DDR2_RTT_NOM ==> "50"
+MIG: 12:43:29 :  Invalid Param: DDR2_ADDR_CMD_MODE ==> "1T"
+MIG: 12:43:29 : 
+MIG: 12:43:29 :  Valid Param: DDR2_REG_CTRL ==> OFF
+MIG: 12:43:29 :  Invalid Param: DDR2_CLKIN_PERIOD ==> 5000
+MIG: 12:43:29 :  Invalid Param: DDR2_CLKFBOUT_MULT ==> 13
+MIG: 12:43:29 :  Invalid Param: DDR2_DIVCLK_DIVIDE ==> 2
+MIG: 12:43:29 :  Invalid Param: DDR2_CLKOUT0_PHASE ==> 0.0
+MIG: 12:43:29 :  Invalid Param: DDR2_CLKOUT0_DIVIDE ==> 2
+MIG: 12:43:29 :  Invalid Param: DDR2_CLKOUT1_DIVIDE ==> 4
+MIG: 12:43:29 :  Invalid Param: DDR2_CLKOUT2_DIVIDE ==> 64
+MIG: 12:43:29 :  Invalid Param: DDR2_CLKOUT3_DIVIDE ==> 16
+MIG: 12:43:29 :  Invalid Param: DDR2_MMCM_VCO ==> 1200
+MIG: 12:43:29 :  Invalid Param: DDR2_MMCM_MULT_F ==> 14
+MIG: 12:43:29 :  Invalid Param: DDR2_MMCM_DIVCLK_DIVIDE ==> 1
+MIG: 12:43:29 :  Invalid Param: DDR2_tCKE ==> 7500
+MIG: 12:43:29 :  Invalid Param: DDR2_tFAW ==> 45000
+MIG: 12:43:29 :  Invalid Param: DDR2_tPRDI ==> 1_000_000
+MIG: 12:43:29 :  Invalid Param: DDR2_tRAS ==> 40000
+MIG: 12:43:29 :  Invalid Param: DDR2_tRCD ==> 15000
+MIG: 12:43:29 :  Invalid Param: DDR2_tREFI ==> 7800000
+MIG: 12:43:29 :  Invalid Param: DDR2_tRFC ==> 127500
+MIG: 12:43:29 :  Invalid Param: DDR2_tRP ==> 12500
+MIG: 12:43:29 :  Invalid Param: DDR2_tRRD ==> 10000
+MIG: 12:43:29 :  Invalid Param: DDR2_tRTP ==> 7500
+MIG: 12:43:29 :  Invalid Param: DDR2_tWTR ==> 7500
+MIG: 12:43:29 :  Invalid Param: DDR2_tZQI ==> 128_000_000
+MIG: 12:43:29 :  Invalid Param: DDR2_tZQCS ==> 64
+MIG: 12:43:29 :  Invalid Param: DDR2_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 12:43:29 :  Invalid Param: DDR2_SIMULATION ==> "FALSE"
+MIG: 12:43:29 :  Invalid Param: DDR2_BYTE_LANES_B0 ==> 4'b1111
+MIG: 12:43:29 :  Invalid Param: DDR2_BYTE_LANES_B1 ==> 4'b0000
+MIG: 12:43:29 :  Invalid Param: DDR2_BYTE_LANES_B2 ==> 4'b0000
+MIG: 12:43:29 :  Invalid Param: DDR2_BYTE_LANES_B3 ==> 4'b0000
+MIG: 12:43:29 :  Invalid Param: DDR2_BYTE_LANES_B4 ==> 4'b0000
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA_CTL_B0 ==> 4'b0101
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA_CTL_B1 ==> 4'b0000
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA_CTL_B2 ==> 4'b0000
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA_CTL_B3 ==> 4'b0000
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA_CTL_B4 ==> 4'b0000
+MIG: 12:43:29 :  Invalid Param: DDR2_PHY_0_BITLANES ==> 48'hFFC_3F7_FFF_3FE
+MIG: 12:43:29 :  Invalid Param: DDR2_PHY_1_BITLANES ==> 48'h000_000_000_000
+MIG: 12:43:29 :  Invalid Param: DDR2_PHY_2_BITLANES ==> 48'h000_000_000_000
+MIG: 12:43:29 :  Invalid Param: DDR2_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_03
+MIG: 12:43:29 :  Invalid Param: DDR2_ADDR_MAP ==> 192'h000_000_000_010_033_01A_019_032_03A_034_018_036_012_011_017_015
+MIG: 12:43:29 :  Invalid Param: DDR2_BANK_MAP ==> 36'h013_016_01B
+MIG: 12:43:29 :  Invalid Param: DDR2_CAS_MAP ==> 12'h039
+MIG: 12:43:29 :  Invalid Param: DDR2_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 12:43:29 :  Invalid Param: DDR2_CKE_MAP ==> 96'h000_000_000_000_000_000_000_038
+MIG: 12:43:29 :  Invalid Param: DDR2_ODT_MAP ==> 96'h000_000_000_000_000_000_000_035
+MIG: 12:43:29 :  Invalid Param: DDR2_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_037
+MIG: 12:43:29 :  Invalid Param: DDR2_PARITY_MAP ==> 12'h000
+MIG: 12:43:29 :  Invalid Param: DDR2_RAS_MAP ==> 12'h014
+MIG: 12:43:29 :  Invalid Param: DDR2_WE_MAP ==> 12'h03B
+MIG: 12:43:29 :  Invalid Param: DDR2_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_02_00
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA0_MAP ==> 96'h008_004_009_007_005_001_006_003
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA1_MAP ==> 96'h022_028_020_024_027_025_026_021
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA2_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA3_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA4_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA5_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA6_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA7_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:43:29 :  Invalid Param: DDR2_MASK0_MAP ==> 108'h000_000_000_000_000_000_000_029_002
+MIG: 12:43:29 :  Invalid Param: DDR2_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 12:43:29 :  Invalid Param: DDR2_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 12:43:29 :  Invalid Param: DDR2_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 12:43:29 :  Invalid Param: DDR2_IBUF_LPWR_MODE ==> "OFF"
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 12:43:29 :  Invalid Param: DDR2_BANK_TYPE ==> "HR_IO"
+MIG: 12:43:29 :  Invalid Param: DDR2_DATA_IO_PRIM_TYPE ==> "HR_LP"
+MIG: 12:43:29 :  Invalid Param: DDR2_CKE_ODT_AUX ==> "FALSE"
+MIG: 12:43:29 :  Invalid Param: DDR2_USER_REFRESH ==> "OFF"
+MIG: 12:43:29 :  Invalid Param: DDR2_WRLVL ==> "OFF"
+MIG: 12:43:29 :  Invalid Param: DDR2_ORDERING ==> "STRICT"
+MIG: 12:43:29 :  Invalid Param: DDR2_CALIB_ROW_ADD ==> 16'h0000
+MIG: 12:43:29 :  Invalid Param: DDR2_CALIB_COL_ADD ==> 12'h000
+MIG: 12:43:29 :  Invalid Param: DDR2_CALIB_BA_ADD ==> 3'h0
+MIG: 12:43:29 :  Invalid Param: DDR2_TCQ ==> 100
+MIG: 12:43:29 :  Invalid Param: DDR2_IODELAY_GRP0 ==> "MIG_7SERIES_0_IODELAY_MIG0"
+MIG: 12:43:29 :  Invalid Param: DDR2_SYSCLK_TYPE ==> "NO_BUFFER"
+MIG: 12:43:29 :  Invalid Param: DDR2_REFCLK_TYPE ==> "USE_SYSTEM_CLOCK"
+MIG: 12:43:29 :  Invalid Param: DDR2_SYS_RST_PORT ==> "FALSE"
+MIG: 12:43:29 :  Invalid Param: DDR2_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 12:43:29 :  Invalid Param: DDR2_DRAM_TYPE ==> "DDR2"
+MIG: 12:43:29 :  Invalid Param: DDR2_CAL_WIDTH ==> "HALF"
+MIG: 12:43:29 :  Invalid Param: DDR2_STARVE_LIMIT ==> 2
+MIG: 12:43:29 :  Invalid Param: DDR2_REFCLK_FREQ ==> 200.0
+MIG: 12:43:29 :  Invalid Param: DDR2_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 12:43:29 :  Invalid Param: DDR2_tCK ==> 3077
+MIG: 12:43:29 : 
+MIG: 12:43:29 :  Valid Param: DDR2_nCK_PER_CLK ==> 4
+MIG: 12:43:29 :  Invalid Param: DDR2_DIFF_TERM_SYSCLK ==> "TRUE"
+MIG: 12:43:29 : 
+MIG: 12:43:29 :  Valid Param: DDR2_DEBUG_PORT ==> OFF
+MIG: 12:43:29 : 
+MIG: 12:43:29 :  Invalid Param: DDR2_TEMP_MON_CONTROL ==> "EXTERNAL"
+MIG: 12:43:30 : 
+MIG: 12:43:30 : 
+MIG: 12:43:30 : 
+MIG: 12:43:30 : Same Interface
+MIG: 12:43:48 : Running synthesis.xit
+MIG: 12:43:48 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 12:43:48 : IGN:         <InputClkFreq>199.995</InputClkFreq> <==>         <InputClkFreq>199.995</InputClkFreq> 
+MIG: 12:43:48 : Running vlog_synth_rpr.xit
+MIG: 12:43:48 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 12:43:48 : IGN:         <InputClkFreq>199.995</InputClkFreq> <==>         <InputClkFreq>199.995</InputClkFreq> 
+MIG: 12:43:48 : Running simulation.xit
+MIG: 12:43:48 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 12:43:48 : IGN:         <InputClkFreq>199.995</InputClkFreq> <==>         <InputClkFreq>199.995</InputClkFreq> 
+MIG: 12:43:48 : Running vlog_sim_rpr.xit .. PRASAD DBG1
+MIG: 12:43:48 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 12:43:49 : IGN:         <InputClkFreq>199.995</InputClkFreq> <==>         <InputClkFreq>199.995</InputClkFreq> 
+MIG: 12:43:49 : Running implementation.xit
+MIG: 12:43:49 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 12:43:49 : IGN:         <InputClkFreq>199.995</InputClkFreq> <==>         <InputClkFreq>199.995</InputClkFreq> 
+MIG: 12:59:24 : Running synthesis.xit
+MIG: 12:59:24 : ################# RUNNING MIG BATCH ###################
+MIG: 12:59:24 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0
+MIG: 12:59:24 : synp_flow:  -- synthesis_mode: Other
+MIG: 12:59:24 : outputDirectory: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 12:59:24 : vivado_mode: xpg_pa
+MIG: 12:59:24 :  locked false  
+MIG: 12:59:24 : HDL Language: Verilog
+MIG: 12:59:24 : compInfo: false
+MIG: 12:59:24 : Vivado Options xc7a100t csg324 -1
+MIG: 12:59:24 : 1: xc7a100t 2: csg324 3: -1
+MIG: 12:59:24 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 12:59:24 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 12:59:24 : I am in catch area
+MIG: 12:59:24 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 12:59:34 : XML_INPUT_FILE: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 12:59:34 : Component_Name: mig_7series_0
+MIG: 12:59:34 : Moving mig_7series_0.veo ...
+MIG: 12:59:34 : Moving mig_7series_0 ...
+MIG: 12:59:34 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 12:59:34 : Running vlog_synth_rpr.xit
+MIG: 12:59:34 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 12:59:34 : IGN:         <InputClkFreq>199.995</InputClkFreq> <==>         <InputClkFreq>199.995</InputClkFreq> 
+MIG: 12:59:34 : Running implementation.xit
+MIG: 12:59:34 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 12:59:34 : IGN:         <InputClkFreq>199.995</InputClkFreq> <==>         <InputClkFreq>199.995</InputClkFreq> 
+MIG: 20:31:42 : Running synthesis.xit
+MIG: 20:31:42 : ################# RUNNING MIG BATCH ###################
+MIG: 20:31:42 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0
+MIG: 20:31:42 : synp_flow:  -- synthesis_mode: Other
+MIG: 20:31:42 : outputDirectory: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 20:31:42 : vivado_mode: xpg_pa
+MIG: 20:31:42 :  locked false  
+MIG: 20:31:42 : HDL Language: Verilog
+MIG: 20:31:42 : compInfo: false
+MIG: 20:31:42 : Vivado Options xc7a100t csg324 -1
+MIG: 20:31:42 : 1: xc7a100t 2: csg324 3: -1
+MIG: 20:31:42 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 20:31:42 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 20:31:42 : I am in catch area
+MIG: 20:31:42 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 20:31:51 : XML_INPUT_FILE: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 20:31:51 : Component_Name: mig_7series_0
+MIG: 20:31:51 : Moving mig_7series_0.veo ...
+MIG: 20:31:51 : Moving mig_7series_0 ...
+MIG: 20:31:51 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 20:31:51 : Running vlog_synth_rpr.xit
+MIG: 20:31:51 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 20:31:51 : IGN:         <InputClkFreq>199.995</InputClkFreq> <==>         <InputClkFreq>199.995</InputClkFreq> 
+MIG: 20:31:51 : Running implementation.xit
+MIG: 20:31:51 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 20:31:51 : IGN:         <InputClkFreq>199.995</InputClkFreq> <==>         <InputClkFreq>199.995</InputClkFreq> 
+MIG: 19:54:52 : Running synthesis.xit
+MIG: 19:54:52 : ################# RUNNING MIG BATCH ###################
+MIG: 19:54:52 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0
+MIG: 19:54:52 : synp_flow:  -- synthesis_mode: Other
+MIG: 19:54:52 : outputDirectory: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 19:54:52 : vivado_mode: xpg_pa
+MIG: 19:54:52 :  locked false  
+MIG: 19:54:52 : HDL Language: Verilog
+MIG: 19:54:52 : compInfo: false
+MIG: 19:54:52 : Vivado Options xc7a100t csg324 -1
+MIG: 19:54:52 : 1: xc7a100t 2: csg324 3: -1
+MIG: 19:54:52 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 19:54:52 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 19:54:52 : I am in catch area
+MIG: 19:54:52 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 19:55:01 : XML_INPUT_FILE: /home/miura/RISCV/MikuRV/Vivado-proj/main/main.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 19:55:01 : Component_Name: mig_7series_0
+MIG: 19:55:01 : Moving mig_7series_0.veo ...
+MIG: 19:55:01 : Moving mig_7series_0 ...
+MIG: 19:55:02 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 19:55:02 : Running vlog_synth_rpr.xit
+MIG: 19:55:02 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 19:55:02 : IGN:         <InputClkFreq>199.995</InputClkFreq> <==>         <InputClkFreq>199.995</InputClkFreq> 
+MIG: 19:55:02 : Running implementation.xit
+MIG: 19:55:02 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 19:55:02 : IGN:         <InputClkFreq>199.995</InputClkFreq> <==>         <InputClkFreq>199.995</InputClkFreq> 
+MIG: 16:51:06 : Running synthesis.xit
+MIG: 16:51:06 : ################# RUNNING MIG BATCH ###################
+MIG: 16:51:06 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/RISCV/MikuRV/Vivado-proj/Version0.4/main.srcs/sources_1/ip/mig_7series_0
+MIG: 16:51:06 : synp_flow:  -- synthesis_mode: Other
+MIG: 16:51:06 : outputDirectory: /home/miura/RISCV/MikuRV/Vivado-proj/Version0.4/main.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 16:51:06 : vivado_mode: xpg_pa
+MIG: 16:51:06 :  locked false  
+MIG: 16:51:06 : HDL Language: Verilog
+MIG: 16:51:06 : compInfo: false
+MIG: 16:51:06 : Vivado Options xc7a100t csg324 -1
+MIG: 16:51:06 : 1: xc7a100t 2: csg324 3: -1
+MIG: 16:51:06 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 16:51:06 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 16:51:06 : I am in catch area
+MIG: 16:51:06 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/RISCV/MikuRV/Vivado-proj/Version0.4/main.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/RISCV/MikuRV/Vivado-proj/Version0.4/main.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 16:51:16 : XML_INPUT_FILE: /home/miura/RISCV/MikuRV/Vivado-proj/Version0.4/main.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 16:51:16 : Component_Name: mig_7series_0
+MIG: 16:51:16 : Moving mig_7series_0.veo ...
+MIG: 16:51:16 : Moving mig_7series_0 ...
+MIG: 16:51:16 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 16:51:16 : Running vlog_synth_rpr.xit
+MIG: 16:51:16 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 16:51:16 : IGN:         <InputClkFreq>199.995</InputClkFreq> <==>         <InputClkFreq>199.995</InputClkFreq> 
+MIG: 16:51:16 : Running implementation.xit
+MIG: 16:51:16 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 16:51:16 : IGN:         <InputClkFreq>199.995</InputClkFreq> <==>         <InputClkFreq>199.995</InputClkFreq> 
+MIG: 12:28:07 : Running synthesis.xit
+MIG: 12:28:07 : ################# RUNNING MIG BATCH ###################
+MIG: 12:28:07 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/RISCV/MikuRV/Vivado-proj/Version0.4.3/main.srcs/sources_1/ip/mig_7series_0
+MIG: 12:28:07 : synp_flow:  -- synthesis_mode: Other
+MIG: 12:28:07 : outputDirectory: /home/miura/RISCV/MikuRV/Vivado-proj/Version0.4.3/main.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 12:28:07 : vivado_mode: xpg_pa
+MIG: 12:28:07 :  locked false  
+MIG: 12:28:07 : HDL Language: Verilog
+MIG: 12:28:07 : compInfo: false
+MIG: 12:28:07 : Vivado Options xc7a100t csg324 -1
+MIG: 12:28:07 : 1: xc7a100t 2: csg324 3: -1
+MIG: 12:28:07 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 12:28:07 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 12:28:07 : I am in catch area
+MIG: 12:28:07 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/RISCV/MikuRV/Vivado-proj/Version0.4.3/main.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/RISCV/MikuRV/Vivado-proj/Version0.4.3/main.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 12:28:17 : XML_INPUT_FILE: /home/miura/RISCV/MikuRV/Vivado-proj/Version0.4.3/main.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 12:28:17 : Component_Name: mig_7series_0
+MIG: 12:28:17 : Moving mig_7series_0.veo ...
+MIG: 12:28:17 : Moving mig_7series_0 ...
+MIG: 12:28:17 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 12:28:17 : Running vlog_synth_rpr.xit
+MIG: 12:28:17 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 12:28:17 : IGN:         <InputClkFreq>199.995</InputClkFreq> <==>         <InputClkFreq>199.995</InputClkFreq> 
+MIG: 12:28:17 : Running implementation.xit
+MIG: 12:28:17 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 12:28:17 : IGN:         <InputClkFreq>199.995</InputClkFreq> <==>         <InputClkFreq>199.995</InputClkFreq> 
+MIG: 13:10:35 : Running synthesis.xit
+MIG: 13:10:35 : ################# RUNNING MIG BATCH ###################
+MIG: 13:10:35 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/miura/RISCV/MikuRV/IEICE-Journal/vivado/Version0.4.3/main.srcs/sources_1/ip/mig_7series_0
+MIG: 13:10:35 : synp_flow:  -- synthesis_mode: Other
+MIG: 13:10:35 : outputDirectory: /home/miura/RISCV/MikuRV/IEICE-Journal/vivado/Version0.4.3/main.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 13:10:35 : vivado_mode: xpg_pa
+MIG: 13:10:35 :  locked false  
+MIG: 13:10:35 : HDL Language: Verilog
+MIG: 13:10:35 : compInfo: false
+MIG: 13:10:35 : Vivado Options xc7a100t csg324 -1
+MIG: 13:10:35 : 1: xc7a100t 2: csg324 3: -1
+MIG: 13:10:35 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 13:10:35 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 13:10:35 : I am in catch area
+MIG: 13:10:35 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/miura/RISCV/MikuRV/IEICE-Journal/vivado/Version0.4.3/main.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/miura/RISCV/MikuRV/IEICE-Journal/vivado/Version0.4.3/main.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 13:10:44 : XML_INPUT_FILE: /home/miura/RISCV/MikuRV/IEICE-Journal/vivado/Version0.4.3/main.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 13:10:44 : Component_Name: mig_7series_0
+MIG: 13:10:44 : Moving mig_7series_0.veo ...
+MIG: 13:10:44 : Moving mig_7series_0 ...
+MIG: 13:10:44 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 13:10:44 : Running vlog_synth_rpr.xit
+MIG: 13:10:44 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 13:10:44 : IGN:         <InputClkFreq>199.995</InputClkFreq> <==>         <InputClkFreq>199.995</InputClkFreq> 
+MIG: 13:10:44 : Running implementation.xit
+MIG: 13:10:44 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 13:10:44 : IGN:         <InputClkFreq>199.995</InputClkFreq> <==>         <InputClkFreq>199.995</InputClkFreq> 
+MIG: 17:09:02 : Running synthesis.xit
+MIG: 17:09:02 : ################# RUNNING MIG BATCH ###################
+MIG: 17:09:02 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2017.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/share/FPGA/riscv/rvsoc/rvsoc_ver045/main.srcs/sources_1/ip/mig_7series_0
+MIG: 17:09:02 : synp_flow:  -- synthesis_mode: Other
+MIG: 17:09:02 : outputDirectory: /home/share/FPGA/riscv/rvsoc/rvsoc_ver045/main.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 17:09:02 : vivado_mode: xpg_pa
+MIG: 17:09:02 :  locked false  
+MIG: 17:09:03 : HDL Language: Verilog
+MIG: 17:09:03 : compInfo: false
+MIG: 17:09:03 : Vivado Options xc7a100t csg324 -1
+MIG: 17:09:03 : 1: xc7a100t 2: csg324 3: -1
+MIG: 17:09:03 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 17:09:03 : xilinx_path: /opt/Xilinx/Vivado/2017.2/ids_lite/ISE
+MIG: 17:09:03 : I am in catch area
+MIG: 17:09:03 : Running /opt/Xilinx/Vivado/2017.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/share/FPGA/riscv/rvsoc/rvsoc_ver045/main.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/share/FPGA/riscv/rvsoc/rvsoc_ver045/main.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 17:09:15 : XML_INPUT_FILE: /home/share/FPGA/riscv/rvsoc/rvsoc_ver045/main.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 17:09:15 : Component_Name: mig_7series_0
+MIG: 17:09:15 : Moving mig_7series_0 ...
+MIG: 17:09:16 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 17:09:16 : Moving mig_7series_0.veo ...
+MIG: 17:09:16 : Running vlog_synth_rpr.xit
+MIG: 17:09:16 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 17:09:16 : IGN:         <InputClkFreq>199.995</InputClkFreq> <==>         <InputClkFreq>199.995</InputClkFreq> 
+MIG: 17:09:16 : Running implementation.xit
+MIG: 17:09:16 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 17:09:16 : IGN:         <InputClkFreq>199.995</InputClkFreq> <==>         <InputClkFreq>199.995</InputClkFreq> 
