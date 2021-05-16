@@ -12,8 +12,12 @@ yosys -qq  -f "verilog -sv -mem2reg"                                   \
            -p "opt_clean -purge"                                       \
            -p techmap -p opt                                           \
            -p "show -notitle -prefix top -format dot -viewer echo"     \
+           -p "write_spice -top top test.cir"                                            \
            top.sv
 
 dot top.dot -Tpdf -Gmargin=0 > top.pdf
 
 xdg-open top.pdf
+
+
+# iverilog -g2005-sv -tpcb -ofoo.pcb -pnetlist=top.net top.sv

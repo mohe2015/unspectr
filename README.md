@@ -76,3 +76,16 @@ https://github.com/YosysHQ/yosys
 http://opencircuitdesign.com/qflow/welcome.html
 
 Yosys, SimbiFlow, and Icestorm
+
+### Formal Verification
+
+https://github.com/YosysHQ/SymbiYosys
+
+### Crazy (stupid) idea: KiCad for Verilog
+
+Seems like KiCad only accepts it's own format as netlist so I probably need a converter.
+
+I also probably need technology mapping for yosys that makes sense.
+
+
+iverilog -tpcb -ofoo.pcb -pnetlist=foo.net foo.v
