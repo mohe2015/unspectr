@@ -38,8 +38,6 @@ https://en.wikipedia.org/wiki/List_of_HDL_simulators
 
 https://github.com/SymbiFlow/sv-tests
 
-https://github.com/verilator/verilator
-
 https://en.wikipedia.org/wiki/Comparison_of_EDA_software
 
 https://sites.google.com/site/svedvkit ?
@@ -58,3 +56,23 @@ https://riscv.org/announcements/2015/09/risc-v-in-verilog/
 https://www.hackster.io/news/rvsoc-offers-a-lightweight-linux-capable-risc-v-core-in-just-5-000-lines-of-verilog-9a49976a6664
 
 https://www.arch.cs.titech.ac.jp/wk/rvsoc/doku.php
+
+https://elinux.org/images/7/79/Open-Source_Tools_for_FPGA_Development.pdf
+
+https://hackaday.com/tag/yosys/
+
+
+
+### Simulation
+
+https://github.com/verilator/verilator
+
+http://iverilog.icarus.com/
+
+### Synthesis
+
+https://github.com/YosysHQ/yosys
+
+http://opencircuitdesign.com/qflow/welcome.html
+
+Yosys, SimbiFlow, and Icestorm

@@ -9,3 +9,7 @@ gtkwave top.vcd
 # --trace-fst
 
 # -Wall -O3 --x-assign fast --x-initial fast --noassert
+
+
+
+# maybe use iverilog as a slow additional verification (as it approaches simulation differently)
