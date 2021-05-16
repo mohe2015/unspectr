@@ -18,9 +18,12 @@ L Device:R R1
 U 1 1 60A06C9B
 P 4850 2500
 F 0 "R1" V 5057 2500 50  0000 C CNN
-F 1 "1 k" V 4966 2500 50  0000 C CNN
+F 1 "1k" V 4966 2500 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4780 2500 50  0001 C CNN
 F 3 "~" H 4850 2500 50  0001 C CNN
+F 4 "R" H 4850 2500 50  0001 C CNN "Spice_Primitive"
+F 5 "1k" H 4850 2500 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4850 2500 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    4850 2500
 	0    -1   -1   0   
 $EndComp
@@ -32,6 +35,10 @@ F 0 "D1" H 5143 2245 50  0000 C CNN
 F 1 "LED" H 5143 2336 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 5150 2500 50  0001 C CNN
 F 3 "~" H 5150 2500 50  0001 C CNN
+F 4 "D" H 5150 2500 50  0001 C CNN "Spice_Primitive"
+F 5 "Dled_test" H 5150 2500 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 5150 2500 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "led.lib" H 5150 2500 50  0001 C CNN "Spice_Lib_File"
 	1    5150 2500
 	-1   0    0    1   
 $EndComp
@@ -138,4 +145,6 @@ F 3 "" H 2750 1650 50  0001 C CNN
 	1    2750 1650
 	-1   0    0    1   
 $EndComp
+Text Notes 4850 1200 0    50   ~ 0
+.tran 1u 1m
 $EndSCHEMATC

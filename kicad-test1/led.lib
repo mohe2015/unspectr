@@ -1,1 +1,5 @@
-﻿.model Dled_test D (IS=1a RS=3.3 N=1.8)
+﻿.lib moritz
+
+.model LED D (IS=1a RS=3.3 N=1.8)
+
+.endl
