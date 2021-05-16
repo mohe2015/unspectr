@@ -41,3 +41,20 @@ https://github.com/SymbiFlow/sv-tests
 https://github.com/verilator/verilator
 
 https://en.wikipedia.org/wiki/Comparison_of_EDA_software
+
+https://sites.google.com/site/svedvkit ?
+
+https://chipsalliance.org/
+
+ORPSoC "The full design is around 150k gates + memories. It runs on standard Altera and Xilinx FPGA boards and is also available commercially from Flextronics."
+
+https://opencores.org/
+
+https://www.embecosm.com/appnotes/ean6/embecosm-or1k-verilator-tutorial-ean6-issue-1.html#chap_overview
+
+https://github.com/ultraembedded/riscv
+https://github.com/ultraembedded/biriscv
+https://riscv.org/announcements/2015/09/risc-v-in-verilog/
+https://www.hackster.io/news/rvsoc-offers-a-lightweight-linux-capable-risc-v-core-in-just-5-000-lines-of-verilog-9a49976a6664
+
+https://www.arch.cs.titech.ac.jp/wk/rvsoc/doku.php
