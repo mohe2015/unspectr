@@ -28,3 +28,16 @@ https://en.wikipedia.org/wiki/Comparison_of_EDA_software
 ## Digital
 
 nix shell nixpkgs#yosys nixpkgs#graphviz nixpkgs#verilog nixpkgs#gtkwave nixpkgs#xdot
+
+Ctrl + P: ext install mshr-h.VerilogHDL
+https://marketplace.visualstudio.com/items?itemName=mshr-h.VerilogHDL
+Download extension, in vscodium: extensions -> ... -> install from vsix
+https://github.com/VSCodium/vscodium/blob/master/DOCS.md#extensions-marketplace
+
+https://en.wikipedia.org/wiki/List_of_HDL_simulators
+
+https://github.com/SymbiFlow/sv-tests
+
+https://github.com/verilator/verilator
+
+https://en.wikipedia.org/wiki/Comparison_of_EDA_software
