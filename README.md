@@ -17,7 +17,7 @@ http://qucs.sourceforge.net/ (verilog support)
 LTSpice https://www.analog.com/en/design-center/design-tools-and-calculators.html (not available for linux)
 
 http://geda-project.org/ (seems to be not so user friendly)
-https://www.kicad.org/
++++ https://www.kicad.org/
 
 https://github.com/drahnr/oregano
 
@@ -65,13 +65,13 @@ https://hackaday.com/tag/yosys/
 
 ### Simulation
 
-https://github.com/verilator/verilator
++++ https://github.com/verilator/verilator
 
 http://iverilog.icarus.com/
 
 ### Synthesis
 
-https://github.com/YosysHQ/yosys
++++ https://github.com/YosysHQ/yosys
 
 http://opencircuitdesign.com/qflow/welcome.html
 
@@ -87,5 +87,14 @@ Seems like KiCad only accepts it's own format as netlist so I probably need a co
 
 I also probably need technology mapping for yosys that makes sense.
 
+https://github.com/YosysHQ/yosys/tree/master/examples/cmos
 
-iverilog -tpcb -ofoo.pcb -pnetlist=foo.net foo.v
+https://github.com/YosysHQ/nextpnr
+
+### Show 
+
+http://qucs.sourceforge.net/ (verilog support)
+
+nix shell nixpkgs#qucs
+
+(can simulate the netlist as it seems (spice))

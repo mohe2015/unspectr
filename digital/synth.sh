@@ -18,6 +18,3 @@ yosys -qq  -f "verilog -sv -mem2reg"                                   \
 dot top.dot -Tpdf -Gmargin=0 > top.pdf
 
 xdg-open top.pdf
-
-
-# iverilog -g2005-sv -tpcb -ofoo.pcb -pnetlist=top.net top.sv
