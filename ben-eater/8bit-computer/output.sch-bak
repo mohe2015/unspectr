@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:8bit-computer-cache
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 8bit-computer-rescue:28C16-8bit-computer-rescue U45
+L 8bit-computer-rescue:28C16 U45
 U 1 1 5B57E241
 P 5500 4600
 AR Path="/5B57E241" Ref="U45"  Part="1" 
@@ -27,7 +28,7 @@ F 3 "" H 5500 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:7SEGMENT_CC-8bit-computer-rescue U43
+L 8bit-computer-rescue:7SEGMENT_CC U43
 U 1 1 5B57E259
 P 10050 3200
 F 0 "U43" H 9550 3575 50  0000 R CNN
@@ -38,7 +39,7 @@ F 3 "" H 10050 3220 50  0001 L CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 8bit-computer-rescue:7SEGMENT_CC-8bit-computer-rescue U42
+L 8bit-computer-rescue:7SEGMENT_CC U42
 U 1 1 5B57E27F
 P 9100 3200
 F 0 "U42" H 8600 3575 50  0000 R CNN
@@ -49,7 +50,7 @@ F 3 "" H 9100 3220 50  0001 L CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 8bit-computer-rescue:7SEGMENT_CC-8bit-computer-rescue U40
+L 8bit-computer-rescue:7SEGMENT_CC U40
 U 1 1 5B57E2AC
 P 7200 3200
 F 0 "U40" H 6700 3575 50  0000 R CNN
@@ -60,7 +61,7 @@ F 3 "" H 7200 3220 50  0001 L CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 8bit-computer-rescue:7SEGMENT_CC-8bit-computer-rescue U41
+L 8bit-computer-rescue:7SEGMENT_CC U41
 U 1 1 5B57E2D4
 P 8150 3200
 F 0 "U41" H 7650 3575 50  0000 R CNN
@@ -115,7 +116,7 @@ F 3 "" H 600 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:LM555-8bit-computer-rescue U39
+L 8bit-computer-rescue:LM555 U39
 U 1 1 5B57E3EF
 P 1550 2150
 F 0 "U39" H 1150 2500 50  0000 L CNN
@@ -126,7 +127,7 @@ F 3 "" H 1550 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS08-8bit-computer-rescue U46
+L 8bit-computer-rescue:74LS08 U46
 U 1 1 5B57E43D
 P 1700 4900
 F 0 "U46" H 1700 4950 50  0000 C CNN
@@ -137,7 +138,7 @@ F 3 "" H 1700 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS76-8bit-computer-rescue U37
+L 8bit-computer-rescue:74LS76 U37
 U 1 1 5B57E4CB
 P 3700 1450
 F 0 "U37" H 3750 1500 50  0000 C CNN
@@ -148,7 +149,7 @@ F 3 "" H 3700 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS139-8bit-computer-rescue U38
+L 8bit-computer-rescue:74LS139 U38
 U 1 1 5B57E50A
 P 7250 2100
 F 0 "U38" H 7250 2200 50  0000 C CNN
@@ -159,7 +160,7 @@ F 3 "" H 7250 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS273-8bit-computer-rescue U44
+L 8bit-computer-rescue:74LS273 U44
 U 1 1 5B57E544
 P 3500 4400
 F 0 "U44" H 3500 4250 50  0000 C CNN
@@ -211,7 +212,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 1450 3100 1450
 $Comp
-L 8bit-computer-rescue:74LS76-8bit-computer-rescue U37
+L 8bit-computer-rescue:74LS76 U37
 U 2 1 5B57EBCE
 P 5200 1650
 F 0 "U37" H 5250 1700 50  0000 C CNN
@@ -480,7 +481,7 @@ Wire Wire Line
 	9650 4500 9650 3600
 Connection ~ 8700 4500
 $Comp
-L 8bit-computer-rescue:SW_SPDT-8bit-computer-rescue SW7
+L 8bit-computer-rescue:SW_SPDT SW7
 U 1 1 5B580E05
 P 1800 5700
 F 0 "SW7" H 1800 5870 50  0000 C CNN
@@ -632,7 +633,7 @@ Wire Wire Line
 	4600 5100 4800 5100
 Connection ~ 4700 5300
 $Comp
-L 8bit-computer-rescue:74LS139-8bit-computer-rescue U38
+L 8bit-computer-rescue:74LS139 U38
 U 2 1 5B582A2D
 P 3850 7200
 F 0 "U38" H 3850 7300 50  0000 C CNN
@@ -650,7 +651,7 @@ NoConn ~ 4700 7300
 NoConn ~ 4700 7100
 NoConn ~ 4700 6900
 $Comp
-L 8bit-computer-rescue:74LS08-8bit-computer-rescue U46
+L 8bit-computer-rescue:74LS08 U46
 U 2 1 5B5831E5
 P 5500 6650
 F 0 "U46" H 5500 6700 50  0000 C CNN
@@ -661,7 +662,7 @@ F 3 "" H 5500 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS08-8bit-computer-rescue U46
+L 8bit-computer-rescue:74LS08 U46
 U 3 1 5B583258
 P 5500 7100
 F 0 "U46" H 5500 7150 50  0000 C CNN
@@ -672,7 +673,7 @@ F 3 "" H 5500 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS08-8bit-computer-rescue U46
+L 8bit-computer-rescue:74LS08 U46
 U 4 1 5B583297
 P 5500 7550
 F 0 "U46" H 5500 7600 50  0000 C CNN

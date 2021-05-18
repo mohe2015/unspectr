@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:8bit-computer-cache
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
 encoding utf-8
@@ -1124,7 +1125,7 @@ Wire Wire Line
 	900  9500 900  10000
 Connection ~ 900  10000
 $Comp
-L 8bit-computer-rescue:USB_B-8bit-computer-rescue J1
+L 8bit-computer-rescue:USB_B J1
 U 1 1 5B637305
 P 6700 8300
 F 0 "J1" H 6500 8750 50  0000 L CNN

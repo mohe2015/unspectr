@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:8bit-computer-cache
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 8bit-computer-rescue:LM555-8bit-computer-rescue U1
+L 8bit-computer-rescue:LM555 U1
 U 1 1 5B52B53B
 P 2000 2100
 F 0 "U1" H 1600 2450 50  0000 L CNN
@@ -80,7 +81,7 @@ F 3 "" H 5500 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:POT-8bit-computer-rescue RV1
+L 8bit-computer-rescue:POT RV1
 U 1 1 5B52B6D7
 P 3150 2200
 F 0 "RV1" V 2975 2200 50  0000 C CNN
@@ -146,7 +147,7 @@ F 3 "" H 1550 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:LM555-8bit-computer-rescue U3
+L 8bit-computer-rescue:LM555 U3
 U 1 1 5B52B8B1
 P 7950 2100
 F 0 "U3" H 7550 2450 50  0000 L CNN
@@ -157,7 +158,7 @@ F 3 "" H 7950 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:LM555-8bit-computer-rescue U2
+L 8bit-computer-rescue:LM555 U2
 U 1 1 5B52B907
 P 4900 2100
 F 0 "U2" H 4500 2450 50  0000 L CNN
@@ -168,7 +169,7 @@ F 3 "" H 4900 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS04-8bit-computer-rescue U4
+L 8bit-computer-rescue:74LS04 U4
 U 1 1 5B52B95A
 P 3000 4900
 F 0 "U4" H 3195 5015 50  0000 C CNN
@@ -179,7 +180,7 @@ F 3 "" H 3000 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS08-8bit-computer-rescue U5
+L 8bit-computer-rescue:74LS08 U5
 U 1 1 5B52B9AD
 P 4200 4200
 F 0 "U5" H 4200 4250 50  0000 C CNN
@@ -190,7 +191,7 @@ F 3 "" H 4200 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS32-8bit-computer-rescue U6
+L 8bit-computer-rescue:74LS32 U6
 U 1 1 5B52B9E8
 P 5600 4600
 F 0 "U6" H 5600 4650 50  0000 C CNN
@@ -201,7 +202,7 @@ F 3 "" H 5600 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:SW_SPDT-8bit-computer-rescue SW2
+L 8bit-computer-rescue:SW_SPDT SW2
 U 1 1 5B52BA7F
 P 6850 2200
 F 0 "SW2" H 6850 2370 50  0000 C CNN
@@ -212,7 +213,7 @@ F 3 "" H 6850 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:SW_Push-8bit-computer-rescue SW1
+L 8bit-computer-rescue:SW_Push SW1
 U 1 1 5B52BB68
 P 3950 1900
 F 0 "SW1" H 4000 2000 50  0000 L CNN
@@ -407,7 +408,7 @@ Connection ~ 7350 1450
 Connection ~ 7950 1450
 NoConn ~ 8450 2100
 $Comp
-L 8bit-computer-rescue:74LS08-8bit-computer-rescue U5
+L 8bit-computer-rescue:74LS08 U5
 U 2 1 5B52E719
 P 4200 5000
 F 0 "U5" H 4200 5050 50  0000 C CNN
@@ -418,7 +419,7 @@ F 3 "" H 4200 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS08-8bit-computer-rescue U5
+L 8bit-computer-rescue:74LS08 U5
 U 3 1 5B52E764
 P 7000 4700
 F 0 "U5" H 7000 4750 50  0000 C CNN
@@ -429,7 +430,7 @@ F 3 "" H 7000 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS04-8bit-computer-rescue U4
+L 8bit-computer-rescue:74LS04 U4
 U 4 1 5B52E7BF
 P 3000 5800
 F 0 "U4" H 3195 5915 50  0000 C CNN
@@ -440,7 +441,7 @@ F 3 "" H 3000 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS04-8bit-computer-rescue U4
+L 8bit-computer-rescue:74LS04 U4
 U 6 1 5B52E82B
 P 8800 4250
 F 0 "U4" H 8995 4365 50  0000 C CNN
@@ -558,7 +559,7 @@ $EndComp
 Wire Wire Line
 	9900 1750 9900 1850
 $Comp
-L 8bit-computer-rescue:74LS04-8bit-computer-rescue U4
+L 8bit-computer-rescue:74LS04 U4
 U 2 1 5B5304B0
 P 1700 6650
 F 0 "U4" H 1895 6765 50  0000 C CNN
@@ -569,7 +570,7 @@ F 3 "" H 1700 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS04-8bit-computer-rescue U4
+L 8bit-computer-rescue:74LS04 U4
 U 3 1 5B5304FB
 P 1700 7050
 F 0 "U4" H 1895 7165 50  0000 C CNN
@@ -580,7 +581,7 @@ F 3 "" H 1700 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS04-8bit-computer-rescue U4
+L 8bit-computer-rescue:74LS04 U4
 U 5 1 5B53108F
 P 1700 7450
 F 0 "U4" H 1895 7565 50  0000 C CNN
@@ -591,7 +592,7 @@ F 3 "" H 1700 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS08-8bit-computer-rescue U5
+L 8bit-computer-rescue:74LS08 U5
 U 4 1 5B53125C
 P 3000 6800
 F 0 "U5" H 3000 6850 50  0000 C CNN
@@ -602,7 +603,7 @@ F 3 "" H 3000 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS32-8bit-computer-rescue U6
+L 8bit-computer-rescue:74LS32 U6
 U 2 1 5B5312F6
 P 3000 7400
 F 0 "U6" H 3000 7450 50  0000 C CNN
@@ -613,7 +614,7 @@ F 3 "" H 3000 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS32-8bit-computer-rescue U6
+L 8bit-computer-rescue:74LS32 U6
 U 3 1 5B5313CF
 P 4350 6800
 F 0 "U6" H 4350 6850 50  0000 C CNN
@@ -624,7 +625,7 @@ F 3 "" H 4350 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS32-8bit-computer-rescue U6
+L 8bit-computer-rescue:74LS32 U6
 U 4 1 5B531491
 P 4350 7400
 F 0 "U6" H 4350 7450 50  0000 C CNN

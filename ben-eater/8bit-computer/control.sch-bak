@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:8bit-computer-cache
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 8bit-computer-rescue:74LS161-8bit-computer-rescue U48
+L 8bit-computer-rescue:74LS161 U48
 U 1 1 5B5B76B0
 P 2500 2350
 F 0 "U48" H 2550 2450 50  0000 C CNN
@@ -25,7 +26,7 @@ F 3 "" H 2500 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS138-8bit-computer-rescue U50
+L 8bit-computer-rescue:74LS138 U50
 U 1 1 5B5B76C7
 P 2600 3550
 F 0 "U50" H 2700 4050 50  0000 C CNN
@@ -36,7 +37,7 @@ F 3 "" H 2600 3550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:28C16-8bit-computer-rescue U47
+L 8bit-computer-rescue:28C16 U47
 U 1 1 5B5B76EB
 P 5000 1550
 AR Path="/5B5B76EB" Ref="U47"  Part="1" 
@@ -49,7 +50,7 @@ F 3 "" H 5000 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:28C16-8bit-computer-rescue U52
+L 8bit-computer-rescue:28C16 U52
 U 1 1 5B5B7707
 P 5000 4350
 AR Path="/5B5B7707" Ref="U52"  Part="1" 
@@ -270,7 +271,7 @@ Text HLabel 8600 5600 2    60   Output ~ 0
 Text HLabel 8600 5950 2    60   Output ~ 0
 ~FI
 $Comp
-L 8bit-computer-rescue:74LS04-8bit-computer-rescue U49
+L 8bit-computer-rescue:74LS04 U49
 U 1 1 5B5BA607
 P 8050 1750
 F 0 "U49" H 8245 1865 50  0000 C CNN
@@ -281,7 +282,7 @@ F 3 "" H 8050 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS04-8bit-computer-rescue U49
+L 8bit-computer-rescue:74LS04 U49
 U 2 1 5B5BA6D2
 P 8050 2150
 F 0 "U49" H 8245 2265 50  0000 C CNN
@@ -292,7 +293,7 @@ F 3 "" H 8050 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS04-8bit-computer-rescue U49
+L 8bit-computer-rescue:74LS04 U49
 U 3 1 5B5BA7D7
 P 8050 2500
 F 0 "U49" H 8245 2615 50  0000 C CNN
@@ -303,7 +304,7 @@ F 3 "" H 8050 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS04-8bit-computer-rescue U49
+L 8bit-computer-rescue:74LS04 U49
 U 6 1 5B5BA8CE
 P 8050 2850
 F 0 "U49" H 8245 2965 50  0000 C CNN
@@ -314,7 +315,7 @@ F 3 "" H 8050 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS04-8bit-computer-rescue U49
+L 8bit-computer-rescue:74LS04 U49
 U 5 1 5B5BAA1C
 P 8050 3200
 F 0 "U49" H 8245 3315 50  0000 C CNN
@@ -325,7 +326,7 @@ F 3 "" H 8050 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS04-8bit-computer-rescue U49
+L 8bit-computer-rescue:74LS04 U49
 U 4 1 5B5BAB33
 P 8050 3550
 F 0 "U49" H 8245 3665 50  0000 C CNN
@@ -336,7 +337,7 @@ F 3 "" H 8050 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS04-8bit-computer-rescue U53
+L 8bit-computer-rescue:74LS04 U53
 U 1 1 5B5BAD55
 P 8050 4350
 F 0 "U53" H 8245 4465 50  0000 C CNN
@@ -347,7 +348,7 @@ F 3 "" H 8050 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS04-8bit-computer-rescue U53
+L 8bit-computer-rescue:74LS04 U53
 U 2 1 5B5BAE3C
 P 8050 4750
 F 0 "U53" H 8245 4865 50  0000 C CNN
@@ -358,7 +359,7 @@ F 3 "" H 8050 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS04-8bit-computer-rescue U53
+L 8bit-computer-rescue:74LS04 U53
 U 6 1 5B5BAFB6
 P 8050 5250
 F 0 "U53" H 8245 5365 50  0000 C CNN
@@ -369,7 +370,7 @@ F 3 "" H 8050 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS04-8bit-computer-rescue U53
+L 8bit-computer-rescue:74LS04 U53
 U 5 1 5B5BB043
 P 8050 5600
 F 0 "U53" H 8245 5715 50  0000 C CNN
@@ -380,7 +381,7 @@ F 3 "" H 8050 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS04-8bit-computer-rescue U53
+L 8bit-computer-rescue:74LS04 U53
 U 3 1 5B5BB0D0
 P 8050 5950
 F 0 "U53" H 8245 6065 50  0000 C CNN
@@ -421,7 +422,7 @@ F 3 "" H 4000 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS00-8bit-computer-rescue U51
+L 8bit-computer-rescue:74LS00 U51
 U 2 1 5B5BFFB1
 P 1800 4550
 F 0 "U51" H 1800 4600 50  0000 C CNN
@@ -432,7 +433,7 @@ F 3 "" H 1800 4550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS00-8bit-computer-rescue U51
+L 8bit-computer-rescue:74LS00 U51
 U 1 1 5B5C004E
 P 800 3850
 F 0 "U51" H 800 3900 50  0000 C CNN
@@ -443,7 +444,7 @@ F 3 "" H 800 3850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS00-8bit-computer-rescue U51
+L 8bit-computer-rescue:74LS00 U51
 U 4 1 5B5C00E8
 P 2950 5600
 F 0 "U51" H 2950 5650 50  0000 C CNN
@@ -454,7 +455,7 @@ F 3 "" H 2950 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS00-8bit-computer-rescue U51
+L 8bit-computer-rescue:74LS00 U51
 U 3 1 5B5C0194
 P 1650 5600
 F 0 "U51" H 1650 5650 50  0000 C CNN
@@ -465,7 +466,7 @@ F 3 "" H 1650 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:SW_Push-8bit-computer-rescue SW8
+L 8bit-computer-rescue:SW_Push SW8
 U 1 1 5B5C0243
 P 1200 5150
 F 0 "SW8" H 1250 5250 50  0000 L CNN
@@ -934,7 +935,7 @@ F 3 "" H 3250 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS04-8bit-computer-rescue U53
+L 8bit-computer-rescue:74LS04 U53
 U 4 1 5B624D8F
 P 8050 6450
 F 0 "U53" H 8245 6565 50  0000 C CNN

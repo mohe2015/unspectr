@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:8bit-computer-cache
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 8bit-computer-rescue:74LS173-8bit-computer-rescue U8
+L 8bit-computer-rescue:74LS173 U8
 U 1 1 5B53469D
 P 5250 2700
 F 0 "U8" H 5350 2800 50  0000 C CNN
@@ -25,7 +26,7 @@ F 3 "" H 5250 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS173-8bit-computer-rescue U9
+L 8bit-computer-rescue:74LS173 U9
 U 1 1 5B61AC18
 P 6850 2700
 F 0 "U9" H 6950 2800 50  0000 C CNN
@@ -36,7 +37,7 @@ F 3 "" H 6850 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 8bit-computer-rescue:74LS245-8bit-computer-rescue U7
+L 8bit-computer-rescue:74LS245 U7
 U 1 1 5B61AC1A
 P 3600 2700
 F 0 "U7" H 3700 3275 50  0000 L BNN
